@@ -1,0 +1,42 @@
+2025-05-01 21:48:45,041 - root - ERROR - Failed to start bot bots\bot-sniper-2-logs.yaml: LogsEventProcessor.__init__() missing 1 required positional argument: 'pump_program'
+Traceback (most recent call last):
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 45, in start_bot
+    trader = PumpTrader(
+        # Connection settings
+    ...<51 lines>...
+        max_monitor_time=cfg["trade"].get("max_monitor_time", 300),
+    )
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\trading\trader.py", line 131, in __init__
+    self.token_listener = LogsListener(wss_endpoint, PumpAddresses.PROGRAM)
+                          ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\monitoring\logs_listener.py", line 34, in __init__
+    self.event_processor = LogsEventProcessor()
+                           ~~~~~~~~~~~~~~~~~~^^
+TypeError: LogsEventProcessor.__init__() missing 1 required positional argument: 'pump_program'
+2025-05-01 21:48:50,407 - root - ERROR - Failed to start bot from bots\bot-sniper-2-logs.yaml: LogsEventProcessor.__init__() missing 1 required positional argument: 'pump_program'
+Traceback (most recent call last):
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 149, in run_all_bots
+    asyncio.run(start_bot(str(file)))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 45, in start_bot
+    trader = PumpTrader(
+        # Connection settings
+    ...<51 lines>...
+        max_monitor_time=cfg["trade"].get("max_monitor_time", 300),
+    )
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\trading\trader.py", line 131, in __init__
+    self.token_listener = LogsListener(wss_endpoint, PumpAddresses.PROGRAM)
+                          ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\monitoring\logs_listener.py", line 34, in __init__
+    self.event_processor = LogsEventProcessor()
+                           ~~~~~~~~~~~~~~~~~~^^
+TypeError: LogsEventProcessor.__init__() missing 1 required positional argument: 'pump_program'

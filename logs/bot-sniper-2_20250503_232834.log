@@ -1,0 +1,40 @@
+2025-05-03 23:28:34 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-03 23:28:34 - trading.trader - INFO - Starting pump.fun trader
+2025-05-03 23:28:34 - trading.trader - INFO - Match filter: None
+2025-05-03 23:28:34 - trading.trader - INFO - Creator filter: None
+2025-05-03 23:28:34 - trading.trader - INFO - Marry mode: False
+2025-05-03 23:28:34 - trading.trader - INFO - YOLO mode: True
+2025-05-03 23:28:34 - trading.trader - INFO - Max token age: 1.0 seconds
+2025-05-03 23:28:34 - trading.trader - INFO - Take profit enabled: True
+2025-05-03 23:28:34 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-03 23:28:34 - trading.trader - INFO - Take profit percentage: 50.0%
+2025-05-03 23:28:34 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-03 23:28:34 - trading.trader - INFO - Max monitor time: 300 seconds
+2025-05-03 23:28:35 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-03 23:28:35 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-03 23:28:36 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:28:36 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14640
+2025-05-03 23:28:48 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-03 23:28:48 - trading.trader - INFO - Queued new token: VVT (4VTojTnDcK59GYB8cjiDQL1xoVcrec8rRAdj523Upump)
+2025-05-03 23:28:48 - trading.trader - INFO - Processing fresh token: VVT (age: 0.0s)
+2025-05-03 23:28:48 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-03 23:29:03 - trading.trader - INFO - Buying 0.001000 SOL worth of VVT...
+2025-05-03 23:29:03 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-03 23:29:04 - trading.buyer - INFO - Buying 35766.411557 tokens at 0.00000003 SOL per token
+2025-05-03 23:29:04 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-03 23:29:05 - trading.buyer - INFO - Buy transaction confirmed: 5wgtw9uWSNBSMoktdMs34fAp2CrxJPZnszgnJAYDwSRFKoTqM1Y6HVmsP7VR2TcRaqrLUnWz17n7nHJzbD2EsE59
+2025-05-03 23:29:05 - trading.trader - INFO - Successfully bought VVT
+2025-05-03 23:29:05 - trading.trader - INFO - Monitoring price for VVT (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-03 23:29:52 - trading.trader - INFO - Fixed time sell triggered for VVT after 45 seconds
+2025-05-03 23:29:52 - trading.trader - INFO - Selling VVT...
+2025-05-03 23:29:52 - trading.seller - ERROR - Error fetching token account: 'SolanaClient' object has no attribute 'get_token_accounts_by_owner'
+2025-05-03 23:29:52 - trading.seller - ERROR - No token account found for mint: 4VTojTnDcK59GYB8cjiDQL1xoVcrec8rRAdj523Upump
+2025-05-03 23:29:52 - trading.trader - ERROR - Failed to sell VVT: No token account found for mint: 4VTojTnDcK59GYB8cjiDQL1xoVcrec8rRAdj523Upump
+2025-05-03 23:29:52 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-03 23:30:36 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-03 23:30:37 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-03 23:30:37 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-03 23:30:37 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-03 23:30:37 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-03 23:30:42 - cleanup.manager - INFO - ATA FAy7RTVUYupfzLkvxcrr9N9EaSEVuCbFbrv1s7b3QkXu does not exist or already closed.
+2025-05-03 23:30:42 - trading.trader - INFO - Pump trader has shut down

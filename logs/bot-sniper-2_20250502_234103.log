@@ -1,0 +1,137 @@
+2025-05-02 23:41:03 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-02 23:41:03 - trading.trader - INFO - Starting pump.fun trader
+2025-05-02 23:41:03 - trading.trader - INFO - Match filter: None
+2025-05-02 23:41:03 - trading.trader - INFO - Creator filter: None
+2025-05-02 23:41:03 - trading.trader - INFO - Marry mode: False
+2025-05-02 23:41:03 - trading.trader - INFO - YOLO mode: True
+2025-05-02 23:41:03 - trading.trader - INFO - Max token age: 1.0 seconds
+2025-05-02 23:41:03 - trading.trader - INFO - Take profit enabled: True
+2025-05-02 23:41:03 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-02 23:41:03 - trading.trader - INFO - Take profit percentage: 50.0%
+2025-05-02 23:41:03 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-02 23:41:03 - trading.trader - INFO - Max monitor time: 300 seconds
+2025-05-02 23:41:03 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-02 23:41:03 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-02 23:41:04 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-02 23:41:04 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 11854
+2025-05-02 23:48:11 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:48:17 - monitoring.logs_listener - WARNING - Ping timeout - server not responding
+2025-05-02 23:48:23 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-02 23:48:23 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-02 23:48:23 - monitoring.logs_listener - INFO - Ping loop cancelled
+2025-05-02 23:48:23 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:48:23 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:48:26 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:48:28 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:48:28 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:48:31 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:48:33 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:48:33 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:48:36 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:48:41 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:48:48 - monitoring.logs_listener - ERROR - WebSocket connection error: timed out during opening handshake
+2025-05-02 23:48:48 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:48:50 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:48:53 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:48:53 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:48:55 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:49:08 - monitoring.logs_listener - ERROR - WebSocket connection error: timed out during opening handshake
+2025-05-02 23:49:08 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:49:10 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:49:23 - monitoring.logs_listener - ERROR - WebSocket connection error: timed out during opening handshake
+2025-05-02 23:49:23 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:49:25 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:49:28 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:49:28 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:49:30 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:49:33 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:49:33 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:49:35 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:49:38 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:49:38 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:49:50 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:49:52 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:49:52 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:49:55 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:49:57 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:49:57 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:10 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:50:12 - monitoring.logs_listener - ERROR - WebSocket connection error: timed out during opening handshake
+2025-05-02 23:50:12 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:15 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:50:17 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:50:17 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:20 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:50:22 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:50:22 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:25 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:50:27 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:50:27 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:30 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:50:32 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:50:32 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:35 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:50:38 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:50:38 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:43 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:50:43 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:50 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:50:53 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:50:53 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:50:55 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:50:58 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:50:58 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:51:00 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:51:03 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:51:03 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:51:06 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:51:08 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:51:08 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:51:13 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:51:13 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:51:21 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:51:23 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:51:23 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:51:26 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:51:28 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:51:28 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:51:31 - core.client - WARNING - Blockhash fetch failed: 
+2025-05-02 23:51:33 - monitoring.logs_listener - ERROR - WebSocket connection error: [Errno 11001] getaddrinfo failed
+2025-05-02 23:51:33 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 23:51:38 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-02 23:51:38 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 11854
+2025-05-02 23:54:07 - monitoring.logs_listener - INFO - New token detected: Farage Number  Downing (FND)
+2025-05-02 23:54:07 - trading.trader - INFO - Queued new token: FND (FK7Z9LcyuS3R7ZQVUdXHuKsPYXNepZzSxeymjVkrsj5g)
+2025-05-02 23:54:07 - trading.trader - INFO - Processing fresh token: FND (age: 0.0s)
+2025-05-02 23:54:07 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-02 23:54:23 - trading.trader - INFO - Buying 0.001000 SOL worth of FND...
+2025-05-02 23:54:23 - core.curve - ERROR - Failed to get curve state: Account 7mxTKgJjb6NjdCxNEfXbu3zP99g5JhozUNDjJYLB8TUF not found
+2025-05-02 23:54:23 - trading.buyer - ERROR - Buy operation failed: Invalid curve state: Account 7mxTKgJjb6NjdCxNEfXbu3zP99g5JhozUNDjJYLB8TUF not found
+2025-05-02 23:54:23 - trading.trader - ERROR - Failed to buy FND: Invalid curve state: Account 7mxTKgJjb6NjdCxNEfXbu3zP99g5JhozUNDjJYLB8TUF not found
+2025-05-02 23:54:23 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-02 23:59:46 - monitoring.logs_listener - INFO - New token detected: DreamBrunyee (DREAM)
+2025-05-02 23:59:46 - trading.trader - INFO - Queued new token: DREAM (9gNug5r3Gi5fD4WbcqDefwXoSeRDioUyJPgAedeXg4GQ)
+2025-05-02 23:59:46 - trading.trader - INFO - Processing fresh token: DREAM (age: 0.0s)
+2025-05-02 23:59:46 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-03 00:00:01 - trading.trader - INFO - Buying 0.001000 SOL worth of DREAM...
+2025-05-03 00:00:01 - core.curve - ERROR - Failed to get curve state: Account DpizMU67D32g7KnFF1yhQjSENX3v4girDn6YQsVUcnwD not found
+2025-05-03 00:00:01 - trading.buyer - ERROR - Buy operation failed: Invalid curve state: Account DpizMU67D32g7KnFF1yhQjSENX3v4girDn6YQsVUcnwD not found
+2025-05-03 00:00:01 - trading.trader - ERROR - Failed to buy DREAM: Invalid curve state: Account DpizMU67D32g7KnFF1yhQjSENX3v4girDn6YQsVUcnwD not found
+2025-05-03 00:00:01 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-03 00:08:19 - monitoring.logs_listener - INFO - New token detected: Trim Deserves Better (TDB)
+2025-05-03 00:08:19 - trading.trader - INFO - Queued new token: TDB (EpsB3cJUPgtsAcWdgpAq2QUzTrVdSSuqxYBe7bQveFV9)
+2025-05-03 00:08:19 - trading.trader - INFO - Processing fresh token: TDB (age: 0.0s)
+2025-05-03 00:08:19 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-03 00:08:34 - trading.trader - INFO - Buying 0.001000 SOL worth of TDB...
+2025-05-03 00:08:34 - core.curve - ERROR - Failed to get curve state: Account HoZdfKRfLtch6deagXwKMg3PX38gv8hDXh7SsDiiizU9 not found
+2025-05-03 00:08:34 - trading.buyer - ERROR - Buy operation failed: Invalid curve state: Account HoZdfKRfLtch6deagXwKMg3PX38gv8hDXh7SsDiiizU9 not found
+2025-05-03 00:08:34 - trading.trader - ERROR - Failed to buy TDB: Invalid curve state: Account HoZdfKRfLtch6deagXwKMg3PX38gv8hDXh7SsDiiizU9 not found
+2025-05-03 00:08:34 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-03 00:08:40 - monitoring.logs_listener - INFO - New token detected: Be Yourself (BE YO)
+2025-05-03 00:08:40 - trading.trader - INFO - Queued new token: BE YO (975mpAKBS5yHhEZq4zyRgF1HUxEavtbCrYx6GPk2mmtf)
+2025-05-03 00:08:49 - trading.trader - INFO - Skipping token BE YO - too old (8.3s > 1.0s)
+2025-05-03 00:25:59 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-03 00:25:59 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-03 00:25:59 - trading.trader - INFO - No traded tokens to clean up
+2025-05-03 00:25:59 - trading.trader - INFO - Pump trader has shut down
+2025-05-03 00:25:59 - monitoring.logs_listener - INFO - Ping loop cancelled

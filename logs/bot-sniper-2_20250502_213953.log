@@ -1,0 +1,78 @@
+2025-05-02 21:39:53 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-02 21:39:53 - trading.trader - INFO - Starting pump.fun trader
+2025-05-02 21:39:53 - trading.trader - INFO - Match filter: None
+2025-05-02 21:39:53 - trading.trader - INFO - Creator filter: None
+2025-05-02 21:39:53 - trading.trader - INFO - Marry mode: False
+2025-05-02 21:39:53 - trading.trader - INFO - YOLO mode: True
+2025-05-02 21:39:53 - trading.trader - INFO - Max token age: 1.0 seconds
+2025-05-02 21:39:53 - trading.trader - INFO - Take profit enabled: True
+2025-05-02 21:39:53 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-02 21:39:53 - trading.trader - INFO - Take profit percentage: 50.0%
+2025-05-02 21:39:53 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-02 21:39:53 - trading.trader - INFO - Max monitor time: 300 seconds
+2025-05-02 21:39:53 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-02 21:39:53 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-02 21:39:54 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-02 21:39:54 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 11634
+2025-05-02 21:44:56 - monitoring.logs_listener - INFO - New token detected: bean.fun_1746215091 (bean.fun_1)
+2025-05-02 21:44:56 - trading.trader - INFO - Queued new token: bean.fun_1 (G1sy3xfD9nw7voekyWMALj9KUmiArB8X94iNLQAdMfTz)
+2025-05-02 21:44:56 - trading.trader - INFO - Processing fresh token: bean.fun_1 (age: 0.0s)
+2025-05-02 21:44:56 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-02 21:45:11 - trading.trader - INFO - Buying 0.001000 SOL worth of bean.fun_1...
+2025-05-02 21:45:12 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-02 21:45:12 - trading.buyer - INFO - Buying 35745.811902 tokens at 0.00000003 SOL per token
+2025-05-02 21:45:12 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-02 21:45:13 - trading.buyer - INFO - Buy transaction confirmed: PNcYXDdN35vJpH1UzDVtij3y1EymGXzdkkf5R7hDbFnTbWx6GHJLWp5u5xduTwZ5AEu9qE5vf5hNZk1o2iWHuxG
+2025-05-02 21:45:13 - trading.trader - INFO - Successfully bought bean.fun_1
+2025-05-02 21:45:13 - trading.trader - INFO - Monitoring price for bean.fun_1 (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-02 21:46:00 - trading.trader - INFO - Fixed time sell triggered for bean.fun_1 after 45 seconds
+2025-05-02 21:46:00 - trading.trader - INFO - Selling bean.fun_1...
+2025-05-02 21:46:00 - trading.seller - ERROR - Sell operation failed: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-02 21:46:00 - trading.trader - ERROR - Failed to sell bean.fun_1: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-02 21:46:00 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-02 21:47:52 - monitoring.logs_listener - INFO - New token detected: bean.fun_1746215268 (bean.fun_1)
+2025-05-02 21:47:52 - trading.trader - INFO - Queued new token: bean.fun_1 (CdivLm3SuPgA3UB1uCXUFdW6NYchGDLbBGc8aXhmpPsW)
+2025-05-02 21:47:52 - trading.trader - INFO - Processing fresh token: bean.fun_1 (age: 0.0s)
+2025-05-02 21:47:52 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-02 21:48:07 - trading.trader - INFO - Buying 0.001000 SOL worth of bean.fun_1...
+2025-05-02 21:48:07 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-02 21:48:08 - trading.buyer - INFO - Buying 35745.811902 tokens at 0.00000003 SOL per token
+2025-05-02 21:48:08 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-02 21:48:09 - trading.buyer - INFO - Buy transaction confirmed: ao4KXGRM8WLKPw6b8soJMSsbLDdT6Qgrp9kspZBLk3e5eJqXtF9HbHu6b2LF7YiwtDrrZpsytNQu9GDcLpm9C99
+2025-05-02 21:48:09 - trading.trader - INFO - Successfully bought bean.fun_1
+2025-05-02 21:48:09 - trading.trader - INFO - Monitoring price for bean.fun_1 (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-02 21:48:56 - trading.trader - INFO - Fixed time sell triggered for bean.fun_1 after 45 seconds
+2025-05-02 21:48:56 - trading.trader - INFO - Selling bean.fun_1...
+2025-05-02 21:48:56 - trading.seller - ERROR - Sell operation failed: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-02 21:48:56 - trading.trader - ERROR - Failed to sell bean.fun_1: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-02 21:48:56 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-02 21:50:21 - monitoring.logs_listener - INFO - New token detected: bean.fun_1746215417 (bean.fun_1)
+2025-05-02 21:50:21 - trading.trader - INFO - Queued new token: bean.fun_1 (6VEEptgxp6SS3ow8Lu9aan8Jy2xAEFxoGKH2KsComk8Q)
+2025-05-02 21:50:21 - trading.trader - INFO - Processing fresh token: bean.fun_1 (age: 0.0s)
+2025-05-02 21:50:21 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-02 21:50:36 - trading.trader - INFO - Buying 0.001000 SOL worth of bean.fun_1...
+2025-05-02 21:50:37 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-02 21:50:37 - trading.buyer - INFO - Buying 35745.811902 tokens at 0.00000003 SOL per token
+2025-05-02 21:50:37 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-02 21:50:38 - trading.buyer - INFO - Buy transaction confirmed: 39cX1AtUVtVec2TGbTfKTLbnKHCBvcE5cmdnRhQUv56qDZi8L1HNEagqJ52Cz41zdKryMygW4ZaxEgqbiMFomuSA
+2025-05-02 21:50:38 - trading.trader - INFO - Successfully bought bean.fun_1
+2025-05-02 21:50:38 - trading.trader - INFO - Monitoring price for bean.fun_1 (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-02 21:51:25 - trading.trader - INFO - Fixed time sell triggered for bean.fun_1 after 45 seconds
+2025-05-02 21:51:25 - trading.trader - INFO - Selling bean.fun_1...
+2025-05-02 21:51:25 - trading.seller - ERROR - Sell operation failed: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-02 21:51:25 - trading.trader - ERROR - Failed to sell bean.fun_1: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-02 21:51:25 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-02 21:51:43 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-02 21:52:03 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-02 21:52:03 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-02 21:52:03 - monitoring.logs_listener - INFO - Ping loop cancelled
+2025-05-02 21:52:16 - monitoring.logs_listener - ERROR - Error processing WebSocket message: Event loop is closed
+2025-05-02 21:52:16 - monitoring.logs_listener - ERROR - WebSocket connection error: Event loop is closed
+2025-05-02 21:52:16 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 21:52:16 - trading.trader - ERROR - Token listening stopped due to error: no running event loop
+2025-05-02 21:52:16 - trading.trader - ERROR - Trading stopped due to error: task_done() called too many times
+2025-05-02 21:52:16 - trading.trader - ERROR - Error during cleanup: There is no current event loop in thread 'MainThread'.
+2025-05-02 21:52:16 - root - ERROR - Bot stopped due to error: unknown async library, or not in async context
+2025-05-02 21:52:16 - trading.trader - ERROR - Error during cleanup: There is no current event loop in thread 'MainThread'.
+2025-05-02 21:52:16 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<start_bot() done, defined at C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py:33> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>

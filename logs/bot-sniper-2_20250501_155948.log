@@ -1,0 +1,211 @@
+2025-05-01 15:59:48 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-01 15:59:48 - trading.trader - INFO - Starting pump.fun trader
+2025-05-01 15:59:48 - trading.trader - INFO - Match filter: None
+2025-05-01 15:59:48 - trading.trader - INFO - Creator filter: None
+2025-05-01 15:59:48 - trading.trader - INFO - Marry mode: False
+2025-05-01 15:59:48 - trading.trader - INFO - YOLO mode: True
+2025-05-01 15:59:48 - trading.trader - INFO - Max token age: 0.001 seconds
+2025-05-01 15:59:48 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-01 15:59:48 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-01 15:59:48 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 15:59:48 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-01 15:59:49 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 1248801
+2025-05-01 15:59:53 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 15:59:54 - monitoring.logs_listener - INFO - New token detected: jailboop (jailBOOP)
+2025-05-01 15:59:54 - trading.trader - INFO - Queued new token: jailBOOP (e8BzXyQmAv8k3QCajXATrRHhC744P4UA3xLZt1ppump)
+2025-05-01 15:59:54 - trading.trader - INFO - Processing fresh token: jailBOOP (age: 0.0s)
+2025-05-01 15:59:54 - trading.trader - INFO - Buying 0.000100 SOL worth of jailBOOP...
+2025-05-01 15:59:54 - core.priority_fee.manager - WARNING - Calculated priority fee 1100000 exceeds hard cap 1000000. Applying hard cap.
+2025-05-01 15:59:54 - core.client - INFO - Priority fee in microlamports: 1000000
+2025-05-01 15:59:55 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 15:59:55 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 15:59:55 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 15:59:55 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 15:59:56 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 15:59:56 - trading.buyer - INFO - Buy transaction confirmed: 4sLXF48eYGetpqKJwSUzYK6XznZ18Hmmz6DfumoZJuo7NMFtiLjF2HVQJ6n282S3Tg5fJq3VyYAkViTthH96kwFy
+2025-05-01 15:59:56 - trading.trader - INFO - Successfully bought jailBOOP
+2025-05-01 15:59:56 - trading.trader - INFO - Waiting for 30 seconds before selling...
+2025-05-01 15:59:58 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:04 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:04 - monitoring.logs_listener - INFO - New token detected: Boopdotfun (BOOP)
+2025-05-01 16:00:04 - trading.trader - INFO - Queued new token: BOOP (CM12bjr3DmdD5kANLXp1jy8gfxFJ5TGqtFuoEtFPupXk)
+2025-05-01 16:00:07 - monitoring.logs_listener - INFO - New token detected: WhoHurtsUBaby Token (WHUB)
+2025-05-01 16:00:07 - trading.trader - INFO - Queued new token: WHUB (DN7jgV9sYvic8VksywNcRDVfWonhZJNSkPcAAqbRrQzs)
+2025-05-01 16:00:09 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:10 - monitoring.logs_listener - INFO - New token detected: Just Tell Your Friends To Invest (PONZI)
+2025-05-01 16:00:10 - trading.trader - INFO - Queued new token: PONZI (5QvZXHUrxJCmDJPqHHGqenGHig9LH4JL2VTwvkbcpump)
+2025-05-01 16:00:11 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:00:12 - monitoring.logs_listener - INFO - New token detected: I think I just grokked (grokked)
+2025-05-01 16:00:12 - trading.trader - INFO - Queued new token: grokked (6wwLdqi2CdsLHMG7VH8przk8nvM7FytsjetWXQaHpump)
+2025-05-01 16:00:14 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:15 - monitoring.logs_listener - INFO - New token detected: phintern (PHINTERN)
+2025-05-01 16:00:15 - trading.trader - INFO - Queued new token: PHINTERN (DzbspemWuArdEd5geuUWjuSMtCgsT3bg5CRB8yX1Wm6G)
+2025-05-01 16:00:16 - monitoring.logs_listener - INFO - New token detected: NEW GIRAFFE CALF NAMED (TITALI)
+2025-05-01 16:00:16 - trading.trader - INFO - Queued new token: TITALI (274y2XqP5KiL11iNSoPbd3yTQU2GCxg34vrdFDrGpump)
+2025-05-01 16:00:19 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:20 - monitoring.logs_listener - INFO - New token detected: Solana Anteater (SA)
+2025-05-01 16:00:20 - trading.trader - INFO - Queued new token: SA (6YMKtyqYgQFTHiU3LCYsa98DUEV93VGHHgTnJB5Hpump)
+2025-05-01 16:00:21 - monitoring.logs_listener - INFO - New token detected: The 50$ Template (TungTung)
+2025-05-01 16:00:21 - trading.trader - INFO - Queued new token: TungTung (89Me6KWGn6v184ee8qCX8QBwZEwE9w6o9qk6xmYVpump)
+2025-05-01 16:00:24 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:00:24 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:26 - trading.trader - INFO - Selling jailBOOP...
+2025-05-01 16:00:26 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:26 - trading.seller - ERROR - Sell operation failed: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-01 16:00:26 - trading.trader - ERROR - Failed to sell jailBOOP: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-01 16:00:26 - trading.trader - INFO - YOLO mode enabled. Waiting 10 seconds before looking for next token...
+2025-05-01 16:00:29 - monitoring.logs_listener - INFO - New token detected: MEDIUM DOGACOIN (DOGA)
+2025-05-01 16:00:29 - trading.trader - INFO - Queued new token: DOGA (95vTqywwufTMMDGLE9rmL1VQAqYDh7e6uS5FJ3wLpump)
+2025-05-01 16:00:29 - monitoring.logs_listener - INFO - New token detected: Boopdotfun (Boop)
+2025-05-01 16:00:29 - trading.trader - INFO - Queued new token: Boop (HvUHoo5Cx3UZ5MznWXNMBsMjp9CqU1zKZ2JHc4Wjpump)
+2025-05-01 16:00:30 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:31 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:00:32 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:00:35 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:36 - trading.trader - INFO - Skipping token BOOP - too old (31.7s > 0.001s)
+2025-05-01 16:00:36 - trading.trader - INFO - Skipping token WHUB - too old (28.8s > 0.001s)
+2025-05-01 16:00:36 - trading.trader - INFO - Skipping token PONZI - too old (25.3s > 0.001s)
+2025-05-01 16:00:36 - trading.trader - INFO - Skipping token grokked - too old (24.1s > 0.001s)
+2025-05-01 16:00:36 - trading.trader - INFO - Skipping token PHINTERN - too old (20.9s > 0.001s)
+2025-05-01 16:00:36 - trading.trader - INFO - Skipping token TITALI - too old (19.7s > 0.001s)
+2025-05-01 16:00:36 - trading.trader - ERROR - Error in token queue processor: task_done() called too many times
+2025-05-01 16:00:37 - monitoring.logs_listener - INFO - New token detected: Labubu (Labubu)
+2025-05-01 16:00:37 - trading.trader - INFO - Queued new token: Labubu (EsaAW9KqMdQgKU7dLK5NsGuGM5jsG7K2HAGQgkTfpump)
+2025-05-01 16:00:38 - monitoring.logs_listener - INFO - New token detected: Boop (Boop)
+2025-05-01 16:00:38 - trading.trader - INFO - Queued new token: Boop (D9tTQHbZTXHTRMEfhEqbfjVtT7W1Trdy5fkSoSfbpump)
+2025-05-01 16:00:39 - monitoring.logs_listener - INFO - New token detected: weiner (ween)
+2025-05-01 16:00:39 - trading.trader - INFO - Queued new token: ween (DTPywhbCTVXLrpNPRHwSpw3TkZYoMLQyznW5Usjzpump)
+2025-05-01 16:00:40 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:42 - monitoring.logs_listener - INFO - New token detected: cope (cope)
+2025-05-01 16:00:42 - trading.trader - INFO - Queued new token: cope (9zJwKcuPbramCaEAaT5DrMEsyA3mBSLLzhyhbp6ZhLL9)
+2025-05-01 16:00:45 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:48 - monitoring.logs_listener - INFO - New token detected: WDOT (WDOT)
+2025-05-01 16:00:48 - trading.trader - INFO - Queued new token: WDOT (Fi3RqajRN4NPUgcW56fwJkCCEiodVGERGYmsJ8DPpump)
+2025-05-01 16:00:49 - monitoring.logs_listener - INFO - New token detected: Nerds Be Nerdin (NERDS)
+2025-05-01 16:00:49 - trading.trader - INFO - Queued new token: NERDS (6eHi8UBrLG28h48xqUjN7nC4ix5WTsJRmvt2Jgnjpump)
+2025-05-01 16:00:50 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:50 - monitoring.logs_listener - INFO - New token detected: LetsBoop  (BOOP)
+2025-05-01 16:00:50 - trading.trader - INFO - Queued new token: BOOP (GSfCCX29s96y6JwScNuUZJfw6mpzaspWEShtWhhBpump)
+2025-05-01 16:00:50 - monitoring.logs_listener - INFO - New token detected: Unloaded Area (Unloaded)
+2025-05-01 16:00:50 - trading.trader - INFO - Queued new token: Unloaded (7RPdJFFnyVbRPYLdnB9JpGKWWgfTneVUgvRNmRi8pump)
+2025-05-01 16:00:54 - monitoring.logs_listener - INFO - New token detected: TRUTH TERMINAL GORKED OFF (GORKEDOFF)
+2025-05-01 16:00:54 - trading.trader - INFO - Queued new token: GORKEDOFF (9nzWJ6NddmG8ryEiqBwa46g29fvjZrXmd6XVFP2apump)
+2025-05-01 16:00:55 - monitoring.logs_listener - INFO - New token detected: BOOP (BOOP)
+2025-05-01 16:00:55 - trading.trader - INFO - Queued new token: BOOP (4M6ngxZJthEHpAX148yWZfVMT5h4FuNhzGQ9241dpump)
+2025-05-01 16:00:55 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:00:56 - monitoring.logs_listener - INFO - New token detected: Gorks Girlfriend (GORKIE)
+2025-05-01 16:00:56 - trading.trader - INFO - Queued new token: GORKIE (sx8LAgpfqnWRRhgTvcLrh5DkHRAuPcfhtBPGCrypump)
+2025-05-01 16:00:58 - monitoring.logs_listener - INFO - New token detected:  First Carbon-Negative Dog (GAIA)
+2025-05-01 16:00:58 - trading.trader - INFO - Queued new token: GAIA (AHmVdVcweuREEv7oy6RNvRxL1S39Y6mbqvTUmEEHpump)
+2025-05-01 16:01:00 - monitoring.logs_listener - INFO - New token detected: RoboRama (ROBO)
+2025-05-01 16:01:00 - trading.trader - INFO - Queued new token: ROBO (CTrauuqk16K1SntZvpTmbiaehGV2J12ydbRFrwrAAW4D)
+2025-05-01 16:01:01 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:01 - monitoring.logs_listener - INFO - New token detected: The Cute Rhino (SOLANA)
+2025-05-01 16:01:01 - trading.trader - INFO - Queued new token: SOLANA (AhHyUF9d6ASenoX6cgkaC8mWyLYh7gRe8f8K3ENPpump)
+2025-05-01 16:01:01 - monitoring.logs_listener - INFO - New token detected: ALITA (ALITA)
+2025-05-01 16:01:01 - trading.trader - INFO - Queued new token: ALITA (BWCK1S8PFir7ahT9doUoD8RotGiejdz4CuhXfgnCpump)
+2025-05-01 16:01:03 - monitoring.logs_listener - INFO - New token detected: Solana Anteater (SA)
+2025-05-01 16:01:03 - trading.trader - INFO - Queued new token: SA (GFT3KD31WQ66ujU9jEe3toeoTJiZk7iB82RELaVjpump)
+2025-05-01 16:01:05 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:01:06 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:06 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:01:06 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:01:06 - monitoring.logs_listener - INFO - New token detected: NEW #1 STOCK (MSFT)
+2025-05-01 16:01:06 - trading.trader - INFO - Queued new token: MSFT (3p9PMV8SisYSYusL1Y4RyErKBrSbM4PDXPPehBy2pump)
+2025-05-01 16:01:07 - monitoring.logs_listener - INFO - New token detected: nomi (nomi)
+2025-05-01 16:01:07 - trading.trader - INFO - Queued new token: nomi (HiErxNvGv1vuqvz8togeWTxSJRwXJHr5iZJiG641pump)
+2025-05-01 16:01:07 - monitoring.logs_listener - INFO - New token detected: robo (ROBO)
+2025-05-01 16:01:07 - trading.trader - INFO - Queued new token: ROBO (C43qHHPv5q6WimDj7iK5syhCNmVppVhCnyJ4f5tGpump)
+2025-05-01 16:01:07 - monitoring.logs_listener - INFO - New token detected: NEW OPTIMUM MASCOT (MOMO)
+2025-05-01 16:01:07 - trading.trader - INFO - Queued new token: MOMO (8ZgVUe2nUKvojhrQ6jHbtWmRm6aTrQwRcmM3kR1opump)
+2025-05-01 16:01:08 - monitoring.logs_listener - INFO - New token detected: GORK'S NAMED DOG (FLUFFY)
+2025-05-01 16:01:08 - trading.trader - INFO - Queued new token: FLUFFY (JAMZxawsEPFJiASjUFtEUgjuk4tP15pzMhiDQZLXpump)
+2025-05-01 16:01:08 - monitoring.logs_listener - INFO - New token detected: MouthBurn (MUBN)
+2025-05-01 16:01:08 - trading.trader - INFO - Queued new token: MUBN (APWbPdW4N3Mi4fV1VXDHmdDWQQgbfAwXBo4DjRHUpump)
+2025-05-01 16:01:11 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:12 - monitoring.logs_listener - INFO - New token detected: Department of Governmental Apes (DOGA)
+2025-05-01 16:01:12 - trading.trader - INFO - Queued new token: DOGA (6Qq9obgNqN8x7ELSb7v7AY92REggN3MjAeGDJhwXpump)
+2025-05-01 16:01:12 - monitoring.logs_listener - INFO - New token detected: test (test)
+2025-05-01 16:01:12 - trading.trader - INFO - Queued new token: test (5ipnUNbJfB3eX5GoVZDNLQ3ST87oj44SXqDjb4Ygpump)
+2025-05-01 16:01:12 - monitoring.logs_listener - INFO - New token detected: WEEKLY (WEEKLY)
+2025-05-01 16:01:12 - trading.trader - INFO - Queued new token: WEEKLY (F6djxFvDxX2LnSsUHGpHxCR7cTMCnSmBBcEDwAsUpump)
+2025-05-01 16:01:16 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:20 - monitoring.logs_listener - INFO - New token detected: New SkinCare Routine (Sperm)
+2025-05-01 16:01:20 - trading.trader - INFO - Queued new token: Sperm (2ZV4cvk6iXWoQ6G2BBPtxmQGjkD9tpWgx6QKp7b9pump)
+2025-05-01 16:01:20 - monitoring.logs_listener - INFO - New token detected: New XAI ork (ORK)
+2025-05-01 16:01:20 - trading.trader - INFO - Queued new token: ORK (Fp4bUX7asGwxgRCKyW7siaARXzyZFJZjyocHaeTkpump)
+2025-05-01 16:01:21 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:22 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:01:22 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 16:01:26 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:28 - monitoring.logs_listener - INFO - New token detected: Boop fun (boop)
+2025-05-01 16:01:28 - trading.trader - INFO - Queued new token: boop (B6UHusZcuW4dih2JGeecBhxikznmiSqaMmNGNpfwpump)
+2025-05-01 16:01:29 - monitoring.logs_listener - INFO - New token detected: New SkinCare Routine (SPERM)
+2025-05-01 16:01:29 - trading.trader - INFO - Queued new token: SPERM (Eiy68cQNg9MXFmEww1XX8qvd6wHn21gAbLpZjghGTTKK)
+2025-05-01 16:01:30 - monitoring.logs_listener - INFO - New token detected: I just grokked the Goddess (grokked)
+2025-05-01 16:01:30 - trading.trader - INFO - Queued new token: grokked (8zq9R5QSLrMn1h8aTMLhuRaz5A6UwoQhxH7PHwXgpump)
+2025-05-01 16:01:31 - monitoring.logs_listener - INFO - New token detected: New SkinCare Routine (Sperm)
+2025-05-01 16:01:31 - trading.trader - INFO - Queued new token: Sperm (9WTjykBJMRG3yijRwBquMCoGEV4TU7mPWN3L4ZCxUoov)
+2025-05-01 16:01:32 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:32 - monitoring.logs_listener - INFO - New token detected: Boop (Boopdotfun)
+2025-05-01 16:01:32 - trading.trader - INFO - Queued new token: Boopdotfun (HBxChHi24DbXRoVoSvoxbGebTZYLaDa6XN8MhMAjpump)
+2025-05-01 16:01:32 - trading.trader - INFO - Queued new token: CHAT (6GhJ7dKbEGbF7q66YnDT1QWcYxWS2t8ogPjakppvpump)
+2025-05-01 16:01:36 - monitoring.logs_listener - INFO - New token detected: ORO Gold (ORO)
+2025-05-01 16:01:36 - trading.trader - INFO - Queued new token: ORO (48VeGZxiWde3mLr4Hc6SSJUnxiYgBQLD2iWA4wjFpump)
+2025-05-01 16:01:37 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:38 - monitoring.logs_listener - INFO - New token detected: Cubicroc (CUBIC)
+2025-05-01 16:01:38 - trading.trader - INFO - Queued new token: CUBIC (9Eiz9bt9QfqJTCKh3zwm3icgPNKx57ZMGX3QEr1Zpump)
+2025-05-01 16:01:38 - monitoring.logs_listener - INFO - New token detected: tes (ets)
+2025-05-01 16:01:38 - trading.trader - INFO - Queued new token: ets (5251zzMffTGgSzdKxmxCB3V2xWMoCqBAtB7hMpWQpump)
+2025-05-01 16:01:42 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:47 - monitoring.logs_listener - INFO - New token detected: MEDIUM DOGACOIN (DOGA)
+2025-05-01 16:01:47 - trading.trader - INFO - Queued new token: DOGA (HdEGrM78YD2RHosrfvU14qkGCWcXk19vySDKCGtJpump)
+2025-05-01 16:01:47 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:49 - monitoring.logs_listener - INFO - New token detected: Minecraft needs ai to! (GORKCRAFT)
+2025-05-01 16:01:49 - trading.trader - INFO - Queued new token: GORKCRAFT (5paxCZK3NCwoomKfZVY5jQoAzAeveA6iuXxwfRHepump)
+2025-05-01 16:01:52 - monitoring.logs_listener - INFO - New token detected: MARKETVECTOR MEMECOIN INDEX (MEMECOIN)
+2025-05-01 16:01:52 - trading.trader - INFO - Queued new token: MEMECOIN (FeWQpRiV7SBYZpdbEU3FhTzJvsmLPJfeJKVJNkPgpump)
+2025-05-01 16:01:52 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:01:54 - root - INFO - Received interrupt signal. Initiating graceful shutdown...
+2025-05-01 16:01:54 - trading.trader - ERROR - Trading stopped due to error: task_done() called too many times
+2025-05-01 16:01:54 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-01 16:01:54 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-01 16:01:54 - core.priority_fee.manager - WARNING - Calculated priority fee 1100000 exceeds hard cap 1000000. Applying hard cap.
+2025-05-01 16:01:54 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 16:02:09 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 16:02:09 - cleanup.manager - INFO - ATA CV8mc8o7xwHBE5tuKQpXVe6R5aZoS7dWJUaabpJvcLRE does not exist or already closed.
+2025-05-01 16:02:09 - trading.trader - INFO - Pump trader has shut down
+2025-05-01 16:02:09 - root - ERROR - Failed to start bot from bots\bot-sniper-2-logs.yaml: This event loop is already running
+Traceback (most recent call last):
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 135, in run_all_bots
+    asyncio.run(start_bot(str(file)))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 2002, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 446, in select
+    self._poll(timeout)
+    ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 775, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 165, in signal_handler
+    loop.run_until_complete(loop.shutdown_asyncgens())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+2025-05-01 16:02:09 - root - INFO - Started 1 bots, skipped 1 disabled bots

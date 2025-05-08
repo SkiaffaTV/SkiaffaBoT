@@ -1,0 +1,160 @@
+2025-05-03 23:45:16 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-03 23:45:16 - trading.trader - INFO - Starting pump.fun trader
+2025-05-03 23:45:16 - trading.trader - INFO - Match filter: None
+2025-05-03 23:45:16 - trading.trader - INFO - Creator filter: None
+2025-05-03 23:45:16 - trading.trader - INFO - Marry mode: False
+2025-05-03 23:45:16 - trading.trader - INFO - YOLO mode: True
+2025-05-03 23:45:16 - trading.trader - INFO - Max token age: 1.0 seconds
+2025-05-03 23:45:16 - trading.trader - INFO - Take profit enabled: True
+2025-05-03 23:45:16 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-03 23:45:16 - trading.trader - INFO - Take profit percentage: 50.0%
+2025-05-03 23:45:16 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-03 23:45:16 - trading.trader - INFO - Max monitor time: 300 seconds
+2025-05-03 23:45:17 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-03 23:45:17 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-03 23:45:18 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:45:18 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14645
+2025-05-03 23:49:46 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-03 23:49:46 - trading.trader - INFO - Queued new token: VVT (Cejtvj4xW4GMdHFRYG8H5GHrkVhiwjMBnJCa3ENpump)
+2025-05-03 23:49:46 - trading.trader - INFO - Processing fresh token: VVT (age: 0.0s)
+2025-05-03 23:49:46 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-03 23:50:01 - trading.trader - INFO - Buying 0.001000 SOL worth of VVT...
+2025-05-03 23:50:02 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-03 23:50:02 - trading.buyer - INFO - Buying 35766.428223 tokens at 0.00000003 SOL per token
+2025-05-03 23:50:02 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-03 23:50:04 - trading.buyer - INFO - Buy transaction confirmed: NWAR5gGGN87pvGzz5GgecGL2a21SdSWSHekSiqUqga1xFGLzLsqxgW8eAFVcZEeF7o2WfKf765oAdMGT3FCWBzy
+2025-05-03 23:50:04 - trading.trader - INFO - Successfully bought VVT
+2025-05-03 23:50:04 - trading.trader - INFO - Monitoring price for VVT (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-03 23:50:51 - trading.trader - INFO - Fixed time sell triggered for VVT after 45 seconds
+2025-05-03 23:50:51 - trading.trader - INFO - Selling VVT...
+2025-05-03 23:50:51 - trading.seller - INFO - Waiting 25 seconds for RPC node to synchronize ATA...
+2025-05-03 23:51:16 - trading.seller - ERROR - Sell operation failed: Account 9L94NWKt9hmGmKQC3uFV7dVGq48gbzUha3JM7epixgpF not found
+2025-05-03 23:51:16 - trading.trader - ERROR - Failed to sell VVT: Account 9L94NWKt9hmGmKQC3uFV7dVGq48gbzUha3JM7epixgpF not found
+2025-05-03 23:51:16 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-03 23:51:45 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-03 23:51:45 - trading.trader - INFO - Queued new token: VVT (6wU2QRmSdLk3m3vZK5TARn5SK1ECcjbWvNoSu9rmpump)
+2025-05-03 23:51:45 - trading.trader - INFO - Processing fresh token: VVT (age: 0.0s)
+2025-05-03 23:51:45 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-03 23:52:00 - trading.trader - INFO - Buying 0.001000 SOL worth of VVT...
+2025-05-03 23:52:01 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-03 23:52:01 - trading.buyer - INFO - Buying 35766.428223 tokens at 0.00000003 SOL per token
+2025-05-03 23:52:01 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-03 23:52:02 - trading.buyer - INFO - Buy transaction confirmed: 2AvPnbbc6FGrPVgfa4DgWcGvYKXajBpcGvQBSQUfC1b1uYBNDh7yGMEW794SyftXb616GSoKAuzubaqwicepq7dv
+2025-05-03 23:52:02 - trading.trader - INFO - Successfully bought VVT
+2025-05-03 23:52:02 - trading.trader - INFO - Monitoring price for VVT (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-03 23:52:49 - trading.trader - INFO - Fixed time sell triggered for VVT after 45 seconds
+2025-05-03 23:52:49 - trading.trader - INFO - Selling VVT...
+2025-05-03 23:52:49 - trading.seller - INFO - Waiting 25 seconds for RPC node to synchronize ATA...
+2025-05-03 23:53:14 - trading.seller - ERROR - Sell operation failed: Account F7shxVHfbgExsXqD1xa93jD6heoagWFwJ13oA3fXRkDZ not found
+2025-05-03 23:53:14 - trading.trader - ERROR - Failed to sell VVT: Account F7shxVHfbgExsXqD1xa93jD6heoagWFwJ13oA3fXRkDZ not found
+2025-05-03 23:53:14 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-03 23:56:29 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-03 23:56:29 - trading.trader - INFO - Queued new token: VVT (7e1RbU1FXuY4YYH4WGHvYiEaALsgcXgBCDwUrNympump)
+2025-05-03 23:56:29 - trading.trader - INFO - Processing fresh token: VVT (age: 0.0s)
+2025-05-03 23:56:29 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-03 23:56:44 - trading.trader - INFO - Buying 0.001000 SOL worth of VVT...
+2025-05-03 23:56:44 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-03 23:56:44 - trading.buyer - INFO - Buying 35766.428223 tokens at 0.00000003 SOL per token
+2025-05-03 23:56:44 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-03 23:56:46 - trading.buyer - INFO - Buy transaction confirmed: qKjCaU2uwoRxpK8VKgCoP78hSrX1JvYXkrJpQUYNbiBdumRoSRVDucHAbaSL8fCpwczce5x55iK3wbhXhXLYc2U
+2025-05-03 23:56:46 - trading.trader - INFO - Successfully bought VVT
+2025-05-03 23:56:46 - trading.trader - INFO - Monitoring price for VVT (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-03 23:57:32 - trading.trader - INFO - Fixed time sell triggered for VVT after 45 seconds
+2025-05-03 23:57:32 - trading.trader - INFO - Selling VVT...
+2025-05-03 23:57:32 - trading.seller - INFO - Waiting 25 seconds for RPC node to synchronize ATA...
+2025-05-03 23:57:57 - trading.seller - ERROR - Sell operation failed: Account Cqt9mLZwqA1d1eiSLepa9A4dhzkUptRMmXLCFGrdasY9 not found
+2025-05-03 23:57:57 - trading.trader - ERROR - Failed to sell VVT: Account Cqt9mLZwqA1d1eiSLepa9A4dhzkUptRMmXLCFGrdasY9 not found
+2025-05-03 23:57:57 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-03 23:58:40 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-03 23:58:40 - trading.trader - INFO - Queued new token: VVT (8bnCMYdASu31sLP7g6zcwp7fopomQqa8KTbDP3Etpump)
+2025-05-03 23:58:40 - trading.trader - INFO - Processing fresh token: VVT (age: 0.0s)
+2025-05-03 23:58:40 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-03 23:58:55 - trading.trader - INFO - Buying 0.001000 SOL worth of VVT...
+2025-05-03 23:58:55 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-03 23:58:55 - trading.buyer - INFO - Buying 35766.428223 tokens at 0.00000003 SOL per token
+2025-05-03 23:58:55 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-03 23:58:56 - trading.buyer - INFO - Buy transaction confirmed: 3A4aGERyKrZVu3SBd6U8nQd6gU2mcouuYd56GrDvLhVUdVdhptBDgZFydFEPrbpKQVZysLDtZ9g3PJS2E769xEqZ
+2025-05-03 23:58:56 - trading.trader - INFO - Successfully bought VVT
+2025-05-03 23:58:56 - trading.trader - INFO - Monitoring price for VVT (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-03 23:59:43 - trading.trader - INFO - Fixed time sell triggered for VVT after 45 seconds
+2025-05-03 23:59:43 - trading.trader - INFO - Selling VVT...
+2025-05-03 23:59:43 - trading.seller - INFO - Waiting 25 seconds for RPC node to synchronize ATA...
+2025-05-03 23:59:49 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-03 23:59:49 - trading.trader - INFO - Queued new token: VVT (HnVXTUG2tmyYbYSsyoC1YJ395rhs9DBZckSc2ph9pump)
+2025-05-04 00:00:08 - trading.seller - ERROR - Sell operation failed: Account 97izc8e8TozwwDYopD9FnJhP4pqnCLQTVNHLAHcbmMgZ not found
+2025-05-04 00:00:08 - trading.trader - ERROR - Failed to sell VVT: Account 97izc8e8TozwwDYopD9FnJhP4pqnCLQTVNHLAHcbmMgZ not found
+2025-05-04 00:00:08 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-04 00:00:23 - trading.trader - INFO - Skipping token VVT - too old (34.8s > 1.0s)
+2025-05-04 00:01:26 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-04 00:01:26 - trading.trader - INFO - Queued new token: VVT (2FX8FzUgVcyf8CBRjaZbGSFNDdXJGvdg5sDBbq86pump)
+2025-05-04 00:01:26 - trading.trader - INFO - Processing fresh token: VVT (age: 0.0s)
+2025-05-04 00:01:26 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-04 00:01:41 - trading.trader - INFO - Buying 0.001000 SOL worth of VVT...
+2025-05-04 00:01:41 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-04 00:01:42 - trading.buyer - INFO - Buying 35555.473330 tokens at 0.00000003 SOL per token
+2025-05-04 00:01:42 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-04 00:01:43 - trading.buyer - INFO - Buy transaction confirmed: 25N9pNsVuGPYb1qxyjo1Bczw7gMAE25xv8WxomWjy22LRpLM8Ljxir6VFTGxM5oM7JMuLmVawyPtdTiMqqJfjZ9b
+2025-05-04 00:01:43 - trading.trader - INFO - Successfully bought VVT
+2025-05-04 00:01:43 - trading.trader - INFO - Monitoring price for VVT (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-04 00:02:31 - trading.trader - INFO - Fixed time sell triggered for VVT after 45 seconds
+2025-05-04 00:02:31 - trading.trader - INFO - Selling VVT...
+2025-05-04 00:02:31 - trading.seller - INFO - Waiting 25 seconds for RPC node to synchronize ATA...
+2025-05-04 00:02:56 - trading.seller - ERROR - Sell operation failed: Account 7vXhZumGjwK9rXPxYxFFv3mnmkErkEsWUqzmqTG5g9eT not found
+2025-05-04 00:02:56 - trading.trader - ERROR - Failed to sell VVT: Account 7vXhZumGjwK9rXPxYxFFv3mnmkErkEsWUqzmqTG5g9eT not found
+2025-05-04 00:02:56 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-04 00:10:38 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-04 00:10:38 - trading.trader - INFO - Queued new token: VVT (5ALqVkUyeiCoiaJpWJQphrStCa6gHki9A3eDX3zZpump)
+2025-05-04 00:10:38 - trading.trader - INFO - Processing fresh token: VVT (age: 0.0s)
+2025-05-04 00:10:38 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-04 00:10:53 - trading.trader - INFO - Buying 0.001000 SOL worth of VVT...
+2025-05-04 00:10:53 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-04 00:10:53 - trading.buyer - INFO - Buying 35414.953579 tokens at 0.00000003 SOL per token
+2025-05-04 00:10:53 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-04 00:10:54 - trading.buyer - INFO - Buy transaction confirmed: 4KZLPXNUQaRdrqAK6vW1QjrCNhVjenFYZbsyBayKTED1GC6cz9rTF1Q9P4akd7Zq2mPeowc32XTu9mD8YJoWL3ig
+2025-05-04 00:10:54 - trading.trader - INFO - Successfully bought VVT
+2025-05-04 00:10:55 - trading.trader - INFO - Monitoring price for VVT (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-04 00:11:28 - monitoring.logs_listener - INFO - New token detected: 123 123 (113)
+2025-05-04 00:11:28 - trading.trader - INFO - Queued new token: 113 (HjV4owuPTHzoN9HbMuvPjEbUdesmsy8QwUFLEx3DH6iD)
+2025-05-04 00:11:41 - trading.trader - INFO - Fixed time sell triggered for VVT after 45 seconds
+2025-05-04 00:11:41 - trading.trader - INFO - Selling VVT...
+2025-05-04 00:11:41 - trading.seller - INFO - Waiting 25 seconds for RPC node to synchronize ATA...
+2025-05-04 00:12:06 - trading.seller - ERROR - Sell operation failed: Account 49FzymrXYaQQG9XNWhaJvbwUT5sX9RoDCtgeFKk7YrLy not found
+2025-05-04 00:12:06 - trading.trader - ERROR - Failed to sell VVT: Account 49FzymrXYaQQG9XNWhaJvbwUT5sX9RoDCtgeFKk7YrLy not found
+2025-05-04 00:12:06 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-04 00:12:21 - trading.trader - INFO - Skipping token 113 - too old (53.1s > 1.0s)
+2025-05-04 00:14:29 - monitoring.logs_listener - INFO - New token detected: 123 123 (113)
+2025-05-04 00:14:29 - trading.trader - INFO - Queued new token: 113 (2QK9okryu3pZmHTFNMyhPeEy9XdQQ1fnX3BePq54vibz)
+2025-05-04 00:14:29 - trading.trader - INFO - Processing fresh token: 113 (age: 0.0s)
+2025-05-04 00:14:29 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-04 00:14:44 - trading.trader - INFO - Buying 0.001000 SOL worth of 113...
+2025-05-04 00:14:45 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-04 00:14:45 - trading.buyer - INFO - Buying 35766.666665 tokens at 0.00000003 SOL per token
+2025-05-04 00:14:45 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-04 00:14:46 - trading.buyer - INFO - Buy transaction confirmed: 4tc4Pwz7sCAnGZaa4XXTC9ittZtvof1HMpHBFPKWYfseLAHSXvZdCY1i3xVpyZ6wTSUSdTbpMdacjC45vn3WqCPh
+2025-05-04 00:14:46 - trading.trader - INFO - Successfully bought 113
+2025-05-04 00:14:47 - trading.trader - INFO - Monitoring price for 113 (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-04 00:15:33 - trading.trader - INFO - Fixed time sell triggered for 113 after 45 seconds
+2025-05-04 00:15:33 - trading.trader - INFO - Selling 113...
+2025-05-04 00:15:33 - trading.seller - INFO - Waiting 25 seconds for RPC node to synchronize ATA...
+2025-05-04 00:15:59 - trading.seller - ERROR - Sell operation failed: Account FwUHRTWRL74Xqm1QbTvkeuUveKG3NDGnM5H7gWRnmXu1 not found
+2025-05-04 00:15:59 - trading.trader - ERROR - Failed to sell 113: Account FwUHRTWRL74Xqm1QbTvkeuUveKG3NDGnM5H7gWRnmXu1 not found
+2025-05-04 00:15:59 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-04 00:39:40 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-04 00:39:41 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-04 00:39:41 - trading.trader - INFO - Cleaning up 7 traded token(s)...
+2025-05-04 00:39:41 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-04 00:39:41 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-04 00:39:46 - cleanup.manager - INFO - ATA 97izc8e8TozwwDYopD9FnJhP4pqnCLQTVNHLAHcbmMgZ does not exist or already closed.
+2025-05-04 00:39:46 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-04 00:39:51 - cleanup.manager - INFO - ATA F7shxVHfbgExsXqD1xa93jD6heoagWFwJ13oA3fXRkDZ does not exist or already closed.
+2025-05-04 00:39:51 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-04 00:39:56 - cleanup.manager - INFO - ATA FwUHRTWRL74Xqm1QbTvkeuUveKG3NDGnM5H7gWRnmXu1 does not exist or already closed.
+2025-05-04 00:39:56 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-04 00:40:01 - cleanup.manager - INFO - ATA 7vXhZumGjwK9rXPxYxFFv3mnmkErkEsWUqzmqTG5g9eT does not exist or already closed.
+2025-05-04 00:40:01 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-04 00:40:06 - cleanup.manager - INFO - ATA 49FzymrXYaQQG9XNWhaJvbwUT5sX9RoDCtgeFKk7YrLy does not exist or already closed.
+2025-05-04 00:40:06 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-04 00:40:11 - cleanup.manager - INFO - ATA 9L94NWKt9hmGmKQC3uFV7dVGq48gbzUha3JM7epixgpF does not exist or already closed.
+2025-05-04 00:40:11 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-04 00:40:17 - cleanup.manager - INFO - ATA Cqt9mLZwqA1d1eiSLepa9A4dhzkUptRMmXLCFGrdasY9 does not exist or already closed.
+2025-05-04 00:40:17 - trading.trader - INFO - Pump trader has shut down

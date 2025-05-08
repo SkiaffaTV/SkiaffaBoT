@@ -1,0 +1,24 @@
+2025-05-03 18:53:29 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-03 18:53:29 - trading.trader - INFO - Starting pump.fun trader
+2025-05-03 18:53:29 - trading.trader - INFO - Match filter: None
+2025-05-03 18:53:29 - trading.trader - INFO - Creator filter: None
+2025-05-03 18:53:29 - trading.trader - INFO - Marry mode: False
+2025-05-03 18:53:29 - trading.trader - INFO - YOLO mode: True
+2025-05-03 18:53:29 - trading.trader - INFO - Max token age: 1.0 seconds
+2025-05-03 18:53:29 - trading.trader - INFO - Take profit enabled: True
+2025-05-03 18:53:29 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-03 18:53:29 - trading.trader - INFO - Take profit percentage: 50.0%
+2025-05-03 18:53:29 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-03 18:53:29 - trading.trader - INFO - Max monitor time: 300 seconds
+2025-05-03 18:53:30 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-03 18:53:30 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-03 18:53:30 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 18:53:30 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14461
+2025-05-03 18:53:33 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-03 18:53:33 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-03 18:53:33 - trading.trader - INFO - No traded tokens to clean up
+2025-05-03 18:53:33 - trading.trader - INFO - Pump trader has shut down
+2025-05-03 18:53:33 - root - WARNING - Error during task shutdown: This event loop is already running
+2025-05-03 18:53:33 - root - WARNING - Error closing loop: Cannot close a running event loop
+2025-05-03 18:53:33 - monitoring.logs_listener - INFO - Ping loop cancelled
+2025-05-03 18:53:33 - root - ERROR - Failed to run bot bot-sniper-2: Event loop stopped before Future completed.

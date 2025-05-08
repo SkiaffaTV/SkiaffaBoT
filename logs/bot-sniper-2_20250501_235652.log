@@ -1,0 +1,153 @@
+2025-05-01 23:56:52 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-01 23:56:52 - trading.trader - INFO - Starting pump.fun trader
+2025-05-01 23:56:52 - trading.trader - INFO - Match filter: None
+2025-05-01 23:56:52 - trading.trader - INFO - Creator filter: None
+2025-05-01 23:56:52 - trading.trader - INFO - Marry mode: False
+2025-05-01 23:56:52 - trading.trader - INFO - YOLO mode: True
+2025-05-01 23:56:52 - trading.trader - INFO - Max token age: 0.1 seconds
+2025-05-01 23:56:52 - trading.trader - INFO - Take profit enabled: False
+2025-05-01 23:56:52 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-01 23:56:52 - trading.trader - INFO - Take profit percentage: 10.0%
+2025-05-01 23:56:52 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-01 23:56:52 - trading.trader - INFO - Max monitor time: 60 seconds
+2025-05-01 23:56:53 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-01 23:56:53 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-01 23:56:53 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-01 23:56:53 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 1292082
+2025-05-01 23:56:54 - monitoring.logs_listener - INFO - New token detected: HPE AI (HPE)
+2025-05-01 23:56:54 - trading.trader - INFO - Queued new token: HPE (32rgzQUjrhMxZ9zhhe3yP3AqXq4wjM1nDGGT8YcSpump)
+2025-05-01 23:56:54 - trading.trader - INFO - Processing fresh token: HPE (age: 0.0s)
+2025-05-01 23:56:54 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-01 23:56:55 - monitoring.logs_listener - INFO - New token detected: United States Gabe Dollar (USDG)
+2025-05-01 23:56:55 - trading.trader - INFO - Queued new token: USDG (7aWF3efnBhYAUrGnsjKiGTMFbmZLprLpxB7TcXx6pump)
+2025-05-01 23:56:56 - monitoring.logs_listener - INFO - New token detected: Spark (SPARK)
+2025-05-01 23:56:56 - trading.trader - INFO - Queued new token: SPARK (CMbcLXcivJUqzXh6wAo6Sh9X4ssesEnGTS2gLDmqpump)
+2025-05-01 23:56:56 - monitoring.logs_listener - INFO - New token detected: GABE STABLE COIN (GABE COIN)
+2025-05-01 23:56:56 - trading.trader - INFO - Queued new token: GABE COIN (GEXtLbHn3C6VVrT2zjuQmCVThvyonLjuBSFQwNexpump)
+2025-05-01 23:56:56 - monitoring.logs_listener - INFO - New token detected: GABE STABLECOIN (USDG)
+2025-05-01 23:56:56 - trading.trader - INFO - Queued new token: USDG (5dDuGmVvtMR8LndVpAoNzuGSK5u2xH8eQ6PMKE6Cpump)
+2025-05-01 23:56:59 - monitoring.logs_listener - INFO - New token detected: red day biden (RDB)
+2025-05-01 23:56:59 - trading.trader - INFO - Queued new token: RDB (5AZvxD2XEZE5LP4wKUbA4awMxxAhSkcHR7xAeLvjpump)
+2025-05-01 23:57:00 - monitoring.logs_listener - INFO - New token detected: trump logic (TL)
+2025-05-01 23:57:00 - trading.trader - INFO - Queued new token: TL (EMW3CjB3TfPjSx68vLq7iaS7bSyLTVo9C3bQ2Px1epgL)
+2025-05-01 23:57:02 - monitoring.logs_listener - INFO - New token detected: KOL Manager Coin (KOLCOIN)
+2025-05-01 23:57:02 - trading.trader - INFO - Queued new token: KOLCOIN (iPCMZdjjDxdkLPSaftTP4AVZ5goA4ZGksNjWrmQpump)
+2025-05-01 23:57:02 - monitoring.logs_listener - INFO - New token detected: 2 pac (2 p.a.c)
+2025-05-01 23:57:02 - trading.trader - INFO - Queued new token: 2 p.a.c (2o7xRUVY7XELQf5eVgupzGETU9xHZywKKsytU3Nhpump)
+2025-05-01 23:57:03 - monitoring.logs_listener - INFO - New token detected: bonk with no head (oONK)
+2025-05-01 23:57:03 - trading.trader - INFO - Queued new token: oONK (9Q67aSAJGXQV3MHT2Mfv5YYo8hSRg9bHFtzSBTbKpump)
+2025-05-01 23:57:09 - monitoring.logs_listener - INFO - New token detected: Bluey (Bluey)
+2025-05-01 23:57:09 - trading.trader - INFO - Queued new token: Bluey (2gcJq9e8G8wG7RdQ6n8ZBLZSqwUKoy2iWizRRVaQpump)
+2025-05-01 23:57:09 - trading.trader - INFO - Buying 0.001000 SOL worth of HPE...
+2025-05-01 23:57:09 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 23:57:09 - trading.buyer - INFO - Buying 32441.421012 tokens at 0.00000003 SOL per token
+2025-05-01 23:57:09 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-01 23:57:10 - monitoring.logs_listener - INFO - New token detected: President vs Primates (PVP)
+2025-05-01 23:57:10 - trading.trader - INFO - Queued new token: PVP (EHutFLXJNPLAidSGecodLuSaexWP8tozvaQBKWBbpump)
+2025-05-01 23:57:12 - trading.buyer - INFO - Buy transaction confirmed: HNA8NyfA585tu47duQ9Gx51JWYZW6ezGaXKzUyhvvb64CjCr7nG7JvJFcd2tKKP1CVxLqMUsp4ggC7hY77uTMAY
+2025-05-01 23:57:12 - trading.trader - INFO - Successfully bought HPE
+2025-05-01 23:57:12 - trading.trader - INFO - Waiting for 27 seconds before selling...
+2025-05-01 23:57:14 - monitoring.logs_listener - INFO - New token detected: GABE FIRST COIN (DIGICOIN)
+2025-05-01 23:57:14 - trading.trader - INFO - Queued new token: DIGICOIN (DCU8TC8KgLmSLJFRugHAcKBU8PmdcdqE2ERoVfm6pump)
+2025-05-01 23:57:16 - monitoring.logs_listener - INFO - New token detected: UNITED STATES GABE DOLLAR (USGD)
+2025-05-01 23:57:16 - trading.trader - INFO - Queued new token: USGD (5NAP8Q2Jv8nTo5qHYSUmU5y31MnfFDXENfkXF4YSpump)
+2025-05-01 23:57:18 - monitoring.logs_listener - INFO - New token detected: Russian Mafia Coin (RMC)
+2025-05-01 23:57:18 - trading.trader - INFO - Queued new token: RMC (QozDCBkrehWqA42xUQ5umCkQV3hjrbGNwuA16ugpump)
+2025-05-01 23:57:23 - monitoring.logs_listener - INFO - New token detected: UNTIED STATES MEME DOLLAR  (USDM)
+2025-05-01 23:57:23 - trading.trader - INFO - Queued new token: USDM (6jZMTQosW2NvgXTSig5NQTgUMvCKjk57HXWo1vZppump)
+2025-05-01 23:57:24 - monitoring.logs_listener - INFO - New token detected: Twitch Test Token (TTT)
+2025-05-01 23:57:24 - trading.trader - INFO - Queued new token: TTT (88wiBowZj9e4bRktcErogs4FNhyKS5Mf7Z3sxXfNpump)
+2025-05-01 23:57:26 - monitoring.logs_listener - INFO - New token detected: Gork Would (GORKWOULD)
+2025-05-01 23:57:26 - trading.trader - INFO - Queued new token: GORKWOULD (4r6JfBG8X3UTpwTJxyogfW255Mv4PQPAYvwbjmFKpump)
+2025-05-01 23:57:26 - monitoring.logs_listener - INFO - New token detected: UNTIED STATES MEME DOLLAR  (USDM)
+2025-05-01 23:57:26 - trading.trader - INFO - Queued new token: USDM (66uJwbbdAWa7NG8uqx5D5VMKMJaTAC261wp5xfWupump)
+2025-05-01 23:57:26 - monitoring.logs_listener - INFO - New token detected: ALCHEMUS (ALCHEMUS)
+2025-05-01 23:57:26 - trading.trader - INFO - Queued new token: ALCHEMUS (DmgsnPj1dGqo7v3jBYe3p1nQfNBJnzS1Rf7DvoWkpump)
+2025-05-01 23:57:26 - monitoring.logs_listener - INFO - New token detected: GABRIEL'S MEMECOIN (COIN 3 )
+2025-05-01 23:57:26 - trading.trader - INFO - Queued new token: COIN 3  (7UC5D8FiRz8ht9uWv3JJWxh2sKe2FDt4dzjpHLFEpump)
+2025-05-01 23:57:27 - monitoring.logs_listener - INFO - New token detected: UNTIED STATES MEME DOLLAR  (USDM)
+2025-05-01 23:57:27 - trading.trader - INFO - Queued new token: USDM (HgwVjHYQKbG67WXpBtnGqopb3xcBU9iYWFThARwppump)
+2025-05-01 23:57:27 - monitoring.logs_listener - INFO - New token detected: GABRIEL STABLECOIN (GABE)
+2025-05-01 23:57:27 - trading.trader - INFO - Queued new token: GABE (CAsoazviNuFdn5YYHQPfehY7j11c7PwLnPmLxMQ4pump)
+2025-05-01 23:57:28 - monitoring.logs_listener - INFO - New token detected: Most Valuable Platform (MVP)
+2025-05-01 23:57:28 - trading.trader - INFO - Queued new token: MVP (CuDQ3To7S3MiKCqWQwm3JwkRXRJCh6KjP3vunDc9pump)
+2025-05-01 23:57:31 - monitoring.logs_listener - INFO - New token detected: Mondy (MONDY)
+2025-05-01 23:57:31 - trading.trader - INFO - Queued new token: MONDY (DadoG9BQZycNGwmGQ5aazbjZ848RN1v52UCh96R6pump)
+2025-05-01 23:57:31 - monitoring.logs_listener - INFO - New token detected: NOTHING (NTG)
+2025-05-01 23:57:31 - trading.trader - INFO - Queued new token: NTG (Fbbi9wpBvCcYTpzJtr2YsYgJyQe3z8oazAifdfdEpump)
+2025-05-01 23:57:33 - monitoring.logs_listener - INFO - New token detected: tokens (tokens)
+2025-05-01 23:57:33 - trading.trader - INFO - Queued new token: tokens (As1kSc3HL4W6Gi4GSDSBBh7dhXSps3z5CVKcvH9wpump)
+2025-05-01 23:57:34 - monitoring.logs_listener - INFO - New token detected: Attract Community (ATTRACT)
+2025-05-01 23:57:34 - trading.trader - INFO - Queued new token: ATTRACT (5enrVevpoL5QsGAHQxPCrDm9s9zkChfn59aGPKKMpump)
+2025-05-01 23:57:35 - monitoring.logs_listener - INFO - New token detected: txtx (TXT)
+2025-05-01 23:57:35 - trading.trader - INFO - Queued new token: TXT (AKZsvCbkYbgjSu8toGNVgogjimXtbwuYVFfFoTwdpump)
+2025-05-01 23:57:38 - monitoring.logs_listener - INFO - New token detected: New Trump Meme (Turnp)
+2025-05-01 23:57:38 - trading.trader - INFO - Queued new token: Turnp (Fx4YHQEdj2Cgt6T86S3GoabDtUTtckBrbskpnLWNpump)
+2025-05-01 23:57:38 - monitoring.logs_listener - INFO - New token detected: kentucy fried nigga (KFN)
+2025-05-01 23:57:38 - trading.trader - INFO - Queued new token: KFN (RTcyzBCY7zSFJfbVPEKqL759eXmcuLdG5gsLe3jpump)
+2025-05-01 23:57:39 - trading.trader - INFO - Selling HPE...
+2025-05-01 23:57:39 - trading.seller - INFO - Token balance: 32441.421011
+2025-05-01 23:57:39 - trading.seller - INFO - Price per Token: 0.00000003 SOL
+2025-05-01 23:57:39 - trading.seller - INFO - Selling 32441.421011 tokens
+2025-05-01 23:57:39 - trading.seller - INFO - Expected SOL output: 0.00100006 SOL
+2025-05-01 23:57:39 - trading.seller - INFO - Minimum SOL output (with 15.0% slippage): 0.00085005 SOL
+2025-05-01 23:57:39 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 23:57:39 - monitoring.logs_listener - INFO - New token detected: New Skittles Dog (Rocky)
+2025-05-01 23:57:39 - trading.trader - INFO - Queued new token: Rocky (79r1Y32i4skhimZcwPknvVa6yaVBECL8FpaDn7SYpump)
+2025-05-01 23:57:40 - monitoring.logs_listener - INFO - New token detected: Crypto Buddy (CBUDDY)
+2025-05-01 23:57:40 - trading.trader - INFO - Queued new token: CBUDDY (Wuz71jXzeDoKUQChNeRUP94pPbVq7z97yr5xMpfpump)
+2025-05-01 23:57:40 - monitoring.logs_listener - INFO - New token detected: Canadian house (Igloo)
+2025-05-01 23:57:40 - trading.trader - INFO - Queued new token: Igloo (7UvVYgHf4hxLgyWfGnQKYxZZHgsCSiUMuDgCTyhppump)
+2025-05-01 23:57:40 - trading.seller - INFO - Sell transaction confirmed: KVZ1zJx8So1tfgKE5qzck3MPJ3SnbGKo6LRCPtMiDW1r2CJL9XPYcbNi6T2rDfVoQSyKpqqjcYue4ZWkiaBrCHo
+2025-05-01 23:57:40 - trading.trader - INFO - Successfully sold HPE
+2025-05-01 23:57:40 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-01 23:57:41 - monitoring.logs_listener - INFO - New token detected: Skittles mascot (Skittles)
+2025-05-01 23:57:41 - trading.trader - INFO - Queued new token: Skittles (64SKNi3Nov97FJ8S51HYNcxTdqet4jBfkPNYQfZdpump)
+2025-05-01 23:57:42 - monitoring.logs_listener - INFO - New token detected: Rocky (New Dog)
+2025-05-01 23:57:42 - trading.trader - INFO - Queued new token: New Dog (C2dVDNMCveVo79LacJsaxbLoCCvdDgk8upkayh39pump)
+2025-05-01 23:57:44 - monitoring.logs_listener - INFO - New token detected: Spiderman Stunt Robot (Spiderbot)
+2025-05-01 23:57:44 - trading.trader - INFO - Queued new token: Spiderbot (Ed7ADuF5ZNq5NQYjJNUV6CXFKrJKkX3jBp5zARUBpump)
+2025-05-01 23:57:44 - monitoring.logs_listener - INFO - New token detected: this is bread (bread)
+2025-05-01 23:57:44 - trading.trader - INFO - Queued new token: bread (CowjMMW1QwEXnxCWr7ueJsNY6JLKABpTYXzYpuYqpump)
+2025-05-01 23:57:44 - monitoring.logs_listener - INFO - New token detected: MASCOT (MASCOT)
+2025-05-01 23:57:44 - trading.trader - INFO - Queued new token: MASCOT (CCuqMr41LpA8itFg2Vd5nPb8yWnTYMLZivRKiyT1pump)
+2025-05-01 23:57:44 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-01 23:57:45 - monitoring.logs_listener - INFO - New token detected: UnicornJesus69Inu (UJ69INU)
+2025-05-01 23:57:45 - trading.trader - INFO - Queued new token: UJ69INU (HDkJQvrho37URxnYugZJcyVUt8JSK6g59hQXY6MBpump)
+2025-05-01 23:57:46 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 23:57:46 - monitoring.logs_listener - INFO - New token detected: Awkward (AWK)
+2025-05-01 23:57:46 - trading.trader - INFO - Queued new token: AWK (FJ8cuoFBWT5aHBu4t44aF45Yj6uJcTCQXLAN1D8qpump)
+2025-05-01 23:57:46 - monitoring.logs_listener - INFO - New token detected: Erm Actually (ERM)
+2025-05-01 23:57:46 - trading.trader - INFO - Queued new token: ERM (BuHPcs8sZBX58ngibYuY494tRgB8oPjEKpVsBwJTpump)
+2025-05-01 23:57:46 - monitoring.logs_listener - INFO - New token detected: GabrieUSDC  (GUSDC)
+2025-05-01 23:57:46 - trading.trader - INFO - Queued new token: GUSDC (4cRvPA4i4vtZKmagxv4bsTojStNPKk5M12sa9JEgpump)
+2025-05-01 23:57:49 - monitoring.logs_listener - INFO - New token detected: GABES FIRST MEME COIN (RICH COIN)
+2025-05-01 23:57:49 - trading.trader - INFO - Queued new token: RICH COIN (6vviwCQbWDwegs45bj65zZa639EqbiEu3cWCUGMnpump)
+2025-05-01 23:57:50 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-01 23:57:50 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-01 23:57:50 - monitoring.logs_listener - INFO - Ping loop cancelled
+2025-05-01 23:57:52 - monitoring.logs_listener - INFO - New token detected: United States Gabe Dollar (USBD)
+2025-05-01 23:57:52 - trading.trader - INFO - Queued new token: USBD (4FRy9MbNrdwNwxjwzZzAz1FWoiAJ5xA3Zbvbzueupump)
+2025-05-01 23:57:52 - monitoring.logs_listener - INFO - New token detected: Jew (Jew)
+2025-05-01 23:57:52 - trading.trader - INFO - Queued new token: Jew (3L4fpCiCH76p2DtsykHzHGwdeiWMWfqeC1zpeP5zpump)
+2025-05-01 23:57:52 - monitoring.logs_listener - INFO - New token detected: New Solana Jail (NSJ)
+2025-05-01 23:57:52 - trading.trader - INFO - Queued new token: NSJ (HirKDBeqcdfasFdbspwfuefFhqHdncAZQGFR7Zm7pump)
+2025-05-01 23:57:53 - monitoring.logs_listener - INFO - New token detected: Gabriel's New Token (AppTokens)
+2025-05-01 23:57:53 - trading.trader - INFO - Queued new token: AppTokens (CTWKY9N1swdRbUmDZHtPUAbpRRDyzRfd2Tb8nJem1XWs)
+2025-05-01 23:57:53 - monitoring.logs_listener - INFO - New token detected: Russian Mafia Coin (RMC)
+2025-05-01 23:57:53 - trading.trader - INFO - Queued new token: RMC (SWME1f9ets7rXJSiwjsfYjV9vvXYqMzFJiXU9dApump)
+2025-05-01 23:57:56 - monitoring.logs_listener - ERROR - Error processing WebSocket message: Event loop is closed
+2025-05-01 23:57:56 - monitoring.logs_listener - ERROR - WebSocket connection error: Event loop is closed
+2025-05-01 23:57:56 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-01 23:57:56 - trading.trader - ERROR - Token listening stopped due to error: no running event loop
+2025-05-01 23:57:56 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-01 23:57:56 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-01 23:57:56 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-01 23:57:56 - trading.trader - ERROR - Error during cleanup: no running event loop
+2025-05-01 23:57:56 - root - ERROR - Bot stopped due to error: unknown async library, or not in async context
+2025-05-01 23:57:56 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-01 23:57:56 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-01 23:57:56 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-01 23:57:56 - trading.trader - ERROR - Error during cleanup: no running event loop
+2025-05-01 23:57:56 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<start_bot() done, defined at C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py:33> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>

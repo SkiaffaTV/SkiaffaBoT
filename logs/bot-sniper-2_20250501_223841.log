@@ -1,0 +1,54 @@
+2025-05-01 22:38:41 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-01 22:38:41 - trading.trader - INFO - Starting pump.fun trader
+2025-05-01 22:38:41 - trading.trader - INFO - Match filter: MEME
+2025-05-01 22:38:41 - trading.trader - INFO - Creator filter: None
+2025-05-01 22:38:41 - trading.trader - INFO - Marry mode: False
+2025-05-01 22:38:41 - trading.trader - INFO - YOLO mode: True
+2025-05-01 22:38:41 - trading.trader - INFO - Max token age: 0.001 seconds
+2025-05-01 22:38:41 - trading.trader - INFO - Take profit enabled: True
+2025-05-01 22:38:41 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-01 22:38:41 - trading.trader - INFO - Take profit percentage: 30.0%
+2025-05-01 22:38:41 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-01 22:38:41 - trading.trader - INFO - Max monitor time: 600 seconds
+2025-05-01 22:38:41 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-01 22:38:41 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-01 22:38:42 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-01 22:38:42 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 1289208
+2025-05-01 22:38:47 - monitoring.logs_listener - INFO - New token detected: New XAI gork (gork)
+2025-05-01 22:38:47 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:38:48 - monitoring.logs_listener - INFO - New token detected: Hotel Coin (hotel)
+2025-05-01 22:38:48 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:38:51 - monitoring.logs_listener - INFO - New token detected: AtariCoin (Atari)
+2025-05-01 22:38:51 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:38:52 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 22:38:53 - monitoring.logs_listener - INFO - New token detected: SOCRATES (GORK)
+2025-05-01 22:38:53 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:38:54 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 8405817662601179569
+2025-05-01 22:38:57 - monitoring.logs_listener - INFO - New token detected: go fuck yourself (gfy)
+2025-05-01 22:38:57 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:38:57 - monitoring.logs_listener - INFO - New token detected: GORK SOCRATES (GORKATES )
+2025-05-01 22:38:57 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:38:58 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-01 22:38:59 - monitoring.logs_listener - INFO - New token detected: MODERN DAY SOCRATES (GORK)
+2025-05-01 22:38:59 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:39:02 - monitoring.logs_listener - INFO - New token detected: JUSTICE FOR CHESTERMEME (CHESTER)
+2025-05-01 22:39:02 - trading.trader - INFO - Queued new token: CHESTER (577fmsFdGkp4zifjhkD3Xx4fnXVdbopb6xLASeCNpump)
+2025-05-01 22:39:02 - trading.trader - INFO - Processing fresh token: CHESTER (age: 0.0s)
+2025-05-01 22:39:02 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-01 22:39:04 - monitoring.logs_listener - INFO - New token detected: MODERN SOCRATES (gork)
+2025-05-01 22:39:04 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:39:04 - monitoring.logs_listener - INFO - New token detected: BLUAI (BLU)
+2025-05-01 22:39:04 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:39:06 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 22:39:07 - monitoring.logs_listener - INFO - New token detected: gork vs gourk (gvg)
+2025-05-01 22:39:07 - monitoring.logs_listener - INFO - Token does not match filter 'MEME'. Skipping...
+2025-05-01 22:39:09 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-01 22:39:09 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-01 22:39:09 - monitoring.logs_listener - INFO - Ping loop cancelled
+2025-05-01 22:39:09 - monitoring.logs_listener - ERROR - Error processing WebSocket message: Event loop is closed
+2025-05-01 22:39:09 - monitoring.logs_listener - ERROR - WebSocket connection error: Event loop is closed
+2025-05-01 22:39:09 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-01 22:39:09 - trading.trader - ERROR - Token listening stopped due to error: no running event loop
+2025-05-01 22:39:09 - root - ERROR - Bot stopped due to error: unknown async library, or not in async context
+2025-05-01 22:39:09 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<start_bot() done, defined at C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py:33> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>

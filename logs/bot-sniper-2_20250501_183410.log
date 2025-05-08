@@ -1,0 +1,163 @@
+2025-05-01 18:34:10 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-01 18:34:10 - trading.trader - INFO - Starting pump.fun trader
+2025-05-01 18:34:10 - trading.trader - INFO - Match filter: None
+2025-05-01 18:34:10 - trading.trader - INFO - Creator filter: None
+2025-05-01 18:34:10 - trading.trader - INFO - Marry mode: False
+2025-05-01 18:34:10 - trading.trader - INFO - YOLO mode: True
+2025-05-01 18:34:10 - trading.trader - INFO - Max token age: 25 seconds
+2025-05-01 18:34:10 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-01 18:34:10 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-01 18:34:10 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:11 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-01 18:34:11 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 1276671
+2025-05-01 18:34:16 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:21 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:26 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:31 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:36 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:41 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:44 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-01 18:34:44 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-01 18:34:45 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-01 18:34:45 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 259262
+2025-05-01 18:34:47 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:52 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:34:56 - monitoring.logs_listener - INFO - New token detected: Big Ole Orangutan Party (BOOP)
+2025-05-01 18:34:56 - trading.trader - INFO - Queued new token: BOOP (B8cokdGXZNmPwzdvZ59ntScJC5NfxMpKjJTh5sKdpump)
+2025-05-01 18:34:56 - trading.trader - INFO - Processing fresh token: BOOP (age: 0.0s)
+2025-05-01 18:34:56 - trading.trader - INFO - Waiting for 10 seconds for the bonding curve to stabilize...
+2025-05-01 18:34:57 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:02 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:06 - trading.trader - INFO - Buying 0.001000 SOL worth of BOOP...
+2025-05-01 18:35:06 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:06 - core.priority_fee.manager - WARNING - Calculated priority fee 110000 exceeds hard cap 100000. Applying hard cap.
+2025-05-01 18:35:06 - core.client - INFO - Priority fee in microlamports: 100000
+2025-05-01 18:35:06 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:06 - trading.buyer - INFO - Buying 32472.033347 tokens at 0.00000003 SOL per token
+2025-05-01 18:35:06 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001300 SOL)
+2025-05-01 18:35:06 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:07 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:07 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:09 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:10 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:11 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:12 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:12 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:13 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:14 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:14 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-01 18:35:14 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-01 18:35:14 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-01 18:35:14 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 203248
+2025-05-01 18:35:15 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:16 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:17 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:18 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:18 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:20 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:21 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:22 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:23 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:23 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:24 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:25 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:26 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:27 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:28 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:28 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:29 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:30 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:32 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:33 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:33 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:34 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:35 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:36 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:37 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:37 - trading.buyer - INFO - Buy transaction confirmed: 2v4pB6nehdg7t5UrRmyvTn9ibu3CgcxGLEpSjUTLPiZApYk1cpDxcd3FVHPXS4btWS8aerGWjrZQSw9MAsrCJqnU
+2025-05-01 18:35:37 - trading.trader - INFO - Successfully bought BOOP
+2025-05-01 18:35:37 - trading.trader - INFO - Monitoring price for BOOP to reach 1.5x buy price...
+2025-05-01 18:35:37 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:38 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:38 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:39 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:40 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:41 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:43 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:43 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:44 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:45 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:46 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:47 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:48 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:48 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:49 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:50 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:51 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:52 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:53 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:53 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:54 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:55 - monitoring.logs_listener - INFO - New token detected: TRENCH CULT (TRENCH)
+2025-05-01 18:35:55 - trading.trader - INFO - Queued new token: TRENCH (BnqjqCNN2uV7MBBMeVWgGSM7zLAzqMmZtU4nvCkLpump)
+2025-05-01 18:35:56 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:57 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:35:58 - trading.trader - INFO - Max monitor time reached for BOOP. Selling...
+2025-05-01 18:35:58 - trading.seller - INFO - Waiting 25 seconds for RPC node to synchronize ATA...
+2025-05-01 18:35:58 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:03 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:09 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:14 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:19 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:23 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:23 - trading.seller - ERROR - Sell operation failed: Account KqcTN7V4enfo7TTt8XaNY5nfaAEk5yvi6vd8u5ALbNQ not found
+2025-05-01 18:36:23 - trading.trader - ERROR - Failed to sell BOOP: Account KqcTN7V4enfo7TTt8XaNY5nfaAEk5yvi6vd8u5ALbNQ not found
+2025-05-01 18:36:23 - trading.trader - INFO - YOLO mode enabled. Waiting 3 seconds before looking for next token...
+2025-05-01 18:36:24 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:26 - trading.trader - INFO - Skipping token TRENCH - too old (30.4s > 25s)
+2025-05-01 18:36:29 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:34 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:40 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:36:45 - root - INFO - Received interrupt signal. Initiating graceful shutdown...
+2025-05-01 18:36:45 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-01 18:36:45 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-01 18:36:45 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-01 18:36:45 - core.priority_fee.manager - WARNING - Calculated priority fee 110000 exceeds hard cap 100000. Applying hard cap.
+2025-05-01 18:36:45 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 18:37:00 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 18:37:00 - cleanup.manager - INFO - ATA KqcTN7V4enfo7TTt8XaNY5nfaAEk5yvi6vd8u5ALbNQ does not exist or already closed.
+2025-05-01 18:37:00 - trading.trader - INFO - Pump trader has shut down
+2025-05-01 18:37:00 - root - ERROR - Failed to start bot from bots\bot-sniper-2-logs.yaml: This event loop is already running
+Traceback (most recent call last):
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 123, in run_all_bots
+    asyncio.run(start_bot(str(file)))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 2002, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 446, in select
+    self._poll(timeout)
+    ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 775, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 149, in signal_handler
+    loop.run_until_complete(loop.shutdown_asyncgens())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+2025-05-01 18:37:00 - root - INFO - Started 1 bots, skipped 1 disabled bots

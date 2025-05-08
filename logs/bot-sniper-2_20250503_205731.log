@@ -1,0 +1,45 @@
+2025-05-03 20:57:31 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-03 20:57:31 - trading.trader - INFO - Starting pump.fun trader
+2025-05-03 20:57:31 - trading.trader - INFO - Match filter: None
+2025-05-03 20:57:31 - trading.trader - INFO - Creator filter: None
+2025-05-03 20:57:31 - trading.trader - INFO - Marry mode: False
+2025-05-03 20:57:31 - trading.trader - INFO - YOLO mode: True
+2025-05-03 20:57:31 - trading.trader - INFO - Max token age: 1.0 seconds
+2025-05-03 20:57:31 - trading.trader - INFO - Take profit enabled: True
+2025-05-03 20:57:31 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-03 20:57:31 - trading.trader - INFO - Take profit percentage: 50.0%
+2025-05-03 20:57:31 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-03 20:57:31 - trading.trader - INFO - Max monitor time: 300 seconds
+2025-05-03 20:57:32 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-03 20:57:32 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-03 20:57:33 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 20:57:33 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14533
+2025-05-03 21:00:15 - monitoring.logs_listener - INFO - New token detected: VVT (VVT)
+2025-05-03 21:00:15 - trading.trader - INFO - Queued new token: VVT (77QYs8hn1gAW2v1E6JqqDZQ5KsXw1P2ZftfQFafWpump)
+2025-05-03 21:00:15 - trading.trader - INFO - Processing fresh token: VVT (age: 0.0s)
+2025-05-03 21:00:15 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-03 21:00:30 - trading.trader - INFO - Buying 0.001000 SOL worth of VVT...
+2025-05-03 21:00:30 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-03 21:00:30 - trading.buyer - INFO - Buying 35766.427890 tokens at 0.00000003 SOL per token
+2025-05-03 21:00:30 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-03 21:00:32 - trading.buyer - INFO - Buy transaction confirmed: 36ezu6ckwk6kodrNRZVi9WaFe91JFBXZYoTULyuYvuYkypDVX5hhegmcDDjhvGz2vimcWvip14Zay8oNU1fBAa1R
+2025-05-03 21:00:32 - trading.trader - INFO - Successfully bought VVT
+2025-05-03 21:00:32 - trading.trader - INFO - Monitoring price for VVT (Take Profit: 50.0%, Stop Loss: 15.0%)
+2025-05-03 21:01:19 - trading.trader - INFO - Fixed time sell triggered for VVT after 45 seconds
+2025-05-03 21:01:19 - trading.trader - INFO - Selling VVT...
+2025-05-03 21:01:19 - trading.seller - ERROR - Error fetching token account: 'SolanaClient' object has no attribute 'get_token_accounts_by_owner'
+2025-05-03 21:01:19 - trading.seller - ERROR - No token account found for mint: 77QYs8hn1gAW2v1E6JqqDZQ5KsXw1P2ZftfQFafWpump
+2025-05-03 21:01:19 - trading.trader - ERROR - Failed to sell VVT: No token account found for mint: 77QYs8hn1gAW2v1E6JqqDZQ5KsXw1P2ZftfQFafWpump
+2025-05-03 21:01:19 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-03 21:03:17 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-03 21:03:17 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-03 21:03:17 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-03 21:03:17 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-03 21:03:17 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-03 21:03:23 - cleanup.manager - INFO - ATA 9ugmbhd3DubxJQL5gBJgSXwZP1tN4F7xxPs9vLMtKikg does not exist or already closed.
+2025-05-03 21:03:23 - trading.trader - INFO - Pump trader has shut down
+2025-05-03 21:03:33 - root - WARNING - 1 tasks still pending after cancellation delay
+2025-05-03 21:03:33 - root - WARNING - Pending task: LogsListener._ping_loop
+2025-05-03 21:03:42 - root - WARNING - Error closing loop: Cannot close a running event loop
+2025-05-03 21:03:42 - monitoring.logs_listener - INFO - Ping loop cancelled
+2025-05-03 21:03:42 - root - ERROR - Failed to run bot bot-sniper-2: Event loop stopped before Future completed.

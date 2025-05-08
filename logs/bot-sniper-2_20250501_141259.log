@@ -1,0 +1,55 @@
+2025-05-01 14:12:59 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-01 14:12:59 - trading.trader - INFO - Starting pump.fun trader
+2025-05-01 14:12:59 - trading.trader - INFO - Match filter: None
+2025-05-01 14:12:59 - trading.trader - INFO - Creator filter: None
+2025-05-01 14:12:59 - trading.trader - INFO - Marry mode: False
+2025-05-01 14:12:59 - trading.trader - INFO - YOLO mode: True
+2025-05-01 14:12:59 - trading.trader - INFO - Max token age: 0.001 seconds
+2025-05-01 14:12:59 - trading.trader - WARNING - RPC warm-up failed: 'SolanaClient' object has no attribute 'is_connected'
+2025-05-01 14:12:59 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-01 14:13:00 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:00 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-01 14:13:00 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 1187147
+2025-05-01 14:13:00 - monitoring.logs_listener - INFO - New token detected: Substance (SUB)
+2025-05-01 14:13:00 - trading.trader - INFO - Queued new token: SUB (7S1uxzRwcc7mKMeKQ8SS4oxFT3sz1QfwD4KU9E38SEkY)
+2025-05-01 14:13:00 - trading.trader - INFO - Processing fresh token: SUB (age: 0.0s)
+2025-05-01 14:13:00 - trading.trader - INFO - Buying 0.000100 SOL worth of SUB...
+2025-05-01 14:13:00 - core.client - INFO - Priority fee in microlamports: 550000
+2025-05-01 14:13:01 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:01 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 14:13:01 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 14:13:01 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:02 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:02 - trading.buyer - INFO - Buy transaction confirmed: 5E2HjhWNeRR8Ff2VxHDeARiaE4pVbaDDU8vPAfJRHm37o4wQgbky2SZKYbbrpqw6Vp6nPM474JXXiz7vw8Rfc6pM
+2025-05-01 14:13:02 - trading.trader - INFO - Successfully bought SUB
+2025-05-01 14:13:02 - trading.trader - INFO - Waiting for 10 seconds before selling...
+2025-05-01 14:13:02 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 14:13:04 - monitoring.logs_listener - INFO - New token detected: Shork (Shork)
+2025-05-01 14:13:04 - trading.trader - INFO - Queued new token: Shork (FQh9yemG1FkSQwkAV6uHnKYzQU7tHFGzao36z4u8KS6w)
+2025-05-01 14:13:05 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:09 - monitoring.logs_listener - INFO - New token detected: Against All Odds (Odds)
+2025-05-01 14:13:09 - trading.trader - INFO - Queued new token: Odds (GhuNKaSvpoyAQmPZubkshWDBwDNcqR9VC3FKc226pump)
+2025-05-01 14:13:10 - monitoring.logs_listener - INFO - New token detected: the ultimate freeloader (MOOCHER)
+2025-05-01 14:13:10 - trading.trader - INFO - Queued new token: MOOCHER (3eNsEH3NNpwdF1fHXcRRH8pcL4Chup6XsQf5YvHWpump)
+2025-05-01 14:13:10 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:12 - trading.trader - INFO - Selling SUB...
+2025-05-01 14:13:12 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:12 - trading.seller - ERROR - Sell operation failed: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-01 14:13:12 - trading.trader - ERROR - Failed to sell SUB: InvalidParamsMessage { message: "Invalid param: could not find account" }
+2025-05-01 14:13:12 - trading.trader - INFO - YOLO mode enabled. Waiting 10 seconds before looking for next token...
+2025-05-01 14:13:15 - monitoring.logs_listener - INFO - New token detected: GWAP Coin (GWAP)
+2025-05-01 14:13:15 - trading.trader - INFO - Queued new token: GWAP (2XcDSeXx8RDRwY49zi4CVXhRrRq7hR1D3U3MsZaKpump)
+2025-05-01 14:13:15 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:20 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:22 - trading.trader - INFO - Skipping token Shork - too old (17.5s > 0.001s)
+2025-05-01 14:13:22 - trading.trader - INFO - Skipping token Odds - too old (13.2s > 0.001s)
+2025-05-01 14:13:22 - trading.trader - INFO - Skipping token MOOCHER - too old (12.1s > 0.001s)
+2025-05-01 14:13:22 - trading.trader - INFO - Skipping token GWAP - too old (7.2s > 0.001s)
+2025-05-01 14:13:25 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 14:13:29 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-01 14:13:29 - trading.trader - ERROR - Trading stopped due to error: task_done() called too many times
+2025-05-01 14:13:29 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-01 14:13:29 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-01 14:13:29 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 14:13:31 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<start_bot() done, defined at C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py:27> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>

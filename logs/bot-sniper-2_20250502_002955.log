@@ -1,0 +1,222 @@
+2025-05-02 00:29:55 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-02 00:29:55 - trading.trader - INFO - Starting pump.fun trader
+2025-05-02 00:29:55 - trading.trader - INFO - Match filter: None
+2025-05-02 00:29:55 - trading.trader - INFO - Creator filter: None
+2025-05-02 00:29:55 - trading.trader - INFO - Marry mode: False
+2025-05-02 00:29:55 - trading.trader - INFO - YOLO mode: True
+2025-05-02 00:29:55 - trading.trader - INFO - Max token age: 0.1 seconds
+2025-05-02 00:29:55 - trading.trader - INFO - Take profit enabled: False
+2025-05-02 00:29:55 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-02 00:29:55 - trading.trader - INFO - Take profit percentage: 10.0%
+2025-05-02 00:29:55 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-02 00:29:55 - trading.trader - INFO - Max monitor time: 60 seconds
+2025-05-02 00:29:55 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-02 00:29:55 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-02 00:29:55 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-02 00:29:56 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 1293022
+2025-05-02 00:29:56 - monitoring.logs_listener - INFO - New token detected: DOGE Doge (DOGEDOGE)
+2025-05-02 00:29:56 - trading.trader - INFO - Queued new token: DOGEDOGE (9a1cv6gqG7FK98ueB7UN4Y8bWAPsHC6K3M5K85nDpump)
+2025-05-02 00:29:56 - trading.trader - INFO - Processing fresh token: DOGEDOGE (age: 0.0s)
+2025-05-02 00:29:56 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-02 00:29:56 - monitoring.logs_listener - INFO - New token detected: DAILY NIGHTLY ROUTINE (DNR)
+2025-05-02 00:29:56 - trading.trader - INFO - Queued new token: DNR (FMZKkHMLUU3zJxrwdPvvKicBC5VVBsyVihWSjrQEdAXA)
+2025-05-02 00:29:57 - monitoring.logs_listener - INFO - New token detected: LAST HOUSECOIN ($(LHC))
+2025-05-02 00:29:57 - trading.trader - INFO - Queued new token: $(LHC) (8zwKqKz445tmMhM4Fi9xpUTxUAn7djV1bch7hPkzpump)
+2025-05-02 00:29:57 - monitoring.logs_listener - INFO - New token detected: CHILLNIGGER (CHILLNIGGA)
+2025-05-02 00:29:57 - trading.trader - INFO - Queued new token: CHILLNIGGA (4hBtPVVueg6ZP9eachysrczShKPCRqt9XbPw9ti8pump)
+2025-05-02 00:29:57 - monitoring.logs_listener - INFO - New token detected: Doge Routine (DR)
+2025-05-02 00:29:57 - trading.trader - INFO - Queued new token: DR (C2sDURuAsqcpWUzi7petjK9iTjRjohqDRGyoG95oaaHb)
+2025-05-02 00:29:58 - monitoring.logs_listener - INFO - New token detected: chill gork coin (CGC)
+2025-05-02 00:29:58 - trading.trader - INFO - Queued new token: CGC (EBM1hyjGWUStsS9gRJwywGdoeJKALjNd83pMfENpump)
+2025-05-02 00:30:01 - monitoring.logs_listener - INFO - New token detected: DAILY NIGHTLY ROUTINE (DNR)
+2025-05-02 00:30:01 - trading.trader - INFO - Queued new token: DNR (6z7HQVvEwauPZ46sDgkgxfJFf3KAFNnF5r3WBXvTpump)
+2025-05-02 00:30:02 - monitoring.logs_listener - INFO - New token detected: NORTH KOREAN-LED CATFISH GANG (NKCG)
+2025-05-02 00:30:02 - trading.trader - INFO - Queued new token: NKCG (27YEiMqqqnuqYCJNGw45CwvJ9fUSkitpe2YEzY6neJKE)
+2025-05-02 00:30:02 - monitoring.logs_listener - INFO - New token detected: BITMONSTER (BITMONSTER)
+2025-05-02 00:30:02 - trading.trader - INFO - Queued new token: BITMONSTER (BzsRRUj861xQBXxgeb94nBSRE697Nw6i3rUSTG1fpump)
+2025-05-02 00:30:05 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-02 00:30:07 - monitoring.logs_listener - INFO - New token detected: REF.8.2 (GAMESTORE)
+2025-05-02 00:30:07 - trading.trader - INFO - Queued new token: GAMESTORE (GyqMJy5VSFeb9bU63KmE85tCbDk3fKDf5Y4dXV8bpump)
+2025-05-02 00:30:08 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-02 00:30:09 - monitoring.logs_listener - INFO - New token detected: Arrest Core (AC)
+2025-05-02 00:30:09 - trading.trader - INFO - Queued new token: AC (3US9PmYnHvXxyXKaYA5usyd9zCGr7jm9mGzQ32qsTSCW)
+2025-05-02 00:30:11 - trading.trader - INFO - Buying 0.001000 SOL worth of DOGEDOGE...
+2025-05-02 00:30:11 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-02 00:30:11 - trading.buyer - INFO - Buying 27813.270372 tokens at 0.00000004 SOL per token
+2025-05-02 00:30:11 - trading.buyer - INFO - Total cost: 0.001000 SOL (max: 0.001150 SOL)
+2025-05-02 00:30:12 - monitoring.logs_listener - INFO - New token detected: 123 (123)
+2025-05-02 00:30:12 - trading.trader - INFO - Queued new token: 123 (2YaRGeTeB1RTyq8YoDgQpNfGBL2qY9gSEw1y77f6pump)
+2025-05-02 00:30:12 - monitoring.logs_listener - INFO - New token detected: Prisma Terminal (PRISMA)
+2025-05-02 00:30:12 - trading.trader - INFO - Queued new token: PRISMA (xRu5R4SkXqfoKkFRrRxFj1Co3FacE5gCG2jxH7ipump)
+2025-05-02 00:30:12 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-02 00:30:12 - monitoring.logs_listener - INFO - New token detected: GORK on Solana (GORK)
+2025-05-02 00:30:12 - trading.trader - INFO - Queued new token: GORK (8WemgmjzZdDQ4avy3cmPhc6cLkgNfVHU7m7tMH4Epump)
+2025-05-02 00:30:13 - trading.buyer - INFO - Buy transaction confirmed: 4WqY6DgdJ2vK3uJKvzYb7nRBMtbNvUyGVSzjF71SActfuf9bmrMEoVhm8aYUoy6A7eUBxDEVLnyNZ5Rt9mLKc4U8
+2025-05-02 00:30:13 - trading.trader - INFO - Successfully bought DOGEDOGE
+2025-05-02 00:30:13 - trading.trader - INFO - Waiting for 27 seconds before selling...
+2025-05-02 00:30:17 - monitoring.logs_listener - INFO - New token detected: HATERUGS (HRPANGRY)
+2025-05-02 00:30:17 - trading.trader - INFO - Queued new token: HRPANGRY (2mmRoLXPsniC7otqDyzLu9Zf2pMr9SbGF7qCtjb6pump)
+2025-05-02 00:30:19 - monitoring.logs_listener - INFO - New token detected: Grok Official Gork (GORK)
+2025-05-02 00:30:19 - trading.trader - INFO - Queued new token: GORK (2HvTt8r5wjsbAM6a5KwYVToz93iweYwpWzywvRZxpump)
+2025-05-02 00:30:21 - monitoring.logs_listener - INFO - New token detected: retard of the united states (ROTUS)
+2025-05-02 00:30:21 - trading.trader - INFO - Queued new token: ROTUS (4LfgPxUQshimj9F6c4f634xFurxBty55CLBScEjGpump)
+2025-05-02 00:30:22 - monitoring.logs_listener - INFO - New token detected: Just a Grok Guy (GrokGuy)
+2025-05-02 00:30:22 - trading.trader - INFO - Queued new token: GrokGuy (PsvQvy6Y1tBYHaZ61DTdZjXu64mRNuPpekAHCzDpump)
+2025-05-02 00:30:23 - monitoring.logs_listener - INFO - New token detected: MY LIFE AS DOGE (MLAD)
+2025-05-02 00:30:23 - trading.trader - INFO - Queued new token: MLAD (7uHfpvbktvbmEUsabfWM5JZjBWKkbPUUjmErpwVEpump)
+2025-05-02 00:30:25 - monitoring.logs_listener - INFO - New token detected: obi´s house (obihouse)
+2025-05-02 00:30:25 - trading.trader - INFO - Queued new token: obihouse (Aw5QiXuE7JUY4N8kpFC6bR6CDD41woh1coWPxjVppump)
+2025-05-02 00:30:25 - monitoring.logs_listener - INFO - New token detected: Future House Owners Coin (FHOC)
+2025-05-02 00:30:25 - trading.trader - INFO - Queued new token: FHOC (7ckAXZGezC5mVtAxL8BuqRuYULcJJS3Xeki7vwRjpump)
+2025-05-02 00:30:29 - monitoring.logs_listener - INFO - New token detected: chill gork coin (CGC)
+2025-05-02 00:30:29 - trading.trader - INFO - Queued new token: CGC (8DGSxbshxt2SAfNQCS7ScnwXkXABvrQ5jnpYKxcppump)
+2025-05-02 00:30:29 - monitoring.logs_listener - INFO - New token detected: GROK DRAWS GORK (GORKWIFHAT)
+2025-05-02 00:30:29 - trading.trader - INFO - Queued new token: GORKWIFHAT (DLsqqUf1GM9FvWh7jQ1EJLdjruWERymxSZW9BgJipump)
+2025-05-02 00:30:30 - monitoring.logs_listener - INFO - New token detected: GORKGOD (GORKGOD)
+2025-05-02 00:30:30 - trading.trader - INFO - Queued new token: GORKGOD (2Nz3rSs9AN5uWj5o9UDepBjhLqptpb7iQ4w1Nb2upump)
+2025-05-02 00:30:34 - monitoring.logs_listener - INFO - New token detected: GORK WIF HAT (GWH)
+2025-05-02 00:30:34 - trading.trader - INFO - Queued new token: GWH (7BeCod9dNKXm9jjfJuwvaruwJUBaYBBQiz98fUSQpump)
+2025-05-02 00:30:35 - monitoring.logs_listener - INFO - New token detected: zspokmhfuasyo (zjhgfoqjkl)
+2025-05-02 00:30:35 - trading.trader - INFO - Queued new token: zjhgfoqjkl (3mqCsgHzUt2bFvFirwKKHcWiW5mcsQZEf1yq4o5Zpump)
+2025-05-02 00:30:35 - monitoring.logs_listener - INFO - New token detected: Gmanta (MANTA)
+2025-05-02 00:30:35 - trading.trader - INFO - Queued new token: MANTA (35J6sx18R82hFoH71fdWfxWBEXSgiPT4nQpN3kPMpump)
+2025-05-02 00:30:36 - monitoring.logs_listener - INFO - New token detected: House of Grok (HOG)
+2025-05-02 00:30:36 - trading.trader - INFO - Queued new token: HOG (Ahafp7Z46pExLLSyJZam9wvGn3KuFmG5UTJpF9EBpump)
+2025-05-02 00:30:39 - monitoring.logs_listener - INFO - New token detected: BITMONSTER (BITMONSTER)
+2025-05-02 00:30:39 - trading.trader - INFO - Queued new token: BITMONSTER (HS3zM91TKLQrSDcdYY6tAkB8EckJt6CzNhUBxAhgpump)
+2025-05-02 00:30:39 - monitoring.logs_listener - INFO - New token detected: Intract (ITRC)
+2025-05-02 00:30:39 - trading.trader - INFO - Queued new token: ITRC (3B5rwq4QkJFzmV3hmDq49zFWwVb7rCAz91LQ1w8Rpump)
+2025-05-02 00:30:40 - trading.trader - INFO - Selling DOGEDOGE...
+2025-05-02 00:30:40 - trading.seller - INFO - Token balance: 27813.270371
+2025-05-02 00:30:40 - trading.seller - INFO - Price per Token: 0.00000004 SOL
+2025-05-02 00:30:40 - trading.seller - INFO - Selling 27813.270371 tokens
+2025-05-02 00:30:40 - trading.seller - INFO - Expected SOL output: 0.00099888 SOL
+2025-05-02 00:30:40 - trading.seller - INFO - Minimum SOL output (with 15.0% slippage): 0.00084905 SOL
+2025-05-02 00:30:40 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-02 00:30:42 - monitoring.logs_listener - INFO - New token detected: 1 tree = 1 house  (TREEHOUSE)
+2025-05-02 00:30:42 - trading.trader - INFO - Queued new token: TREEHOUSE (3BCrSFRpV2iyeS8LTpJinWsitv4ehZUdJPrFM1WKpump)
+2025-05-02 00:30:42 - monitoring.logs_listener - INFO - New token detected: NEW CIA CRYPTO MACHINE (KW-7)
+2025-05-02 00:30:42 - trading.trader - INFO - Queued new token: KW-7 (B6pTh9atQYQQ3vZMtpJfm4svbsojmmnk8STsad9ypump)
+2025-05-02 00:30:42 - monitoring.logs_listener - INFO - New token detected: Buying a House with this Coin (OPENHOUSE)
+2025-05-02 00:30:42 - trading.trader - INFO - Queued new token: OPENHOUSE (DzLpFxWg1B9URcZAwrUm9JDuTXtUEebkZ5dovRq8pump)
+2025-05-02 00:30:43 - trading.seller - INFO - Sell transaction confirmed: 65oEetFJfFcGCsvKzqdzaTmysgPUKZVcESGV3gi851dy5y9U9NqVsTh6h6VkvZKpkV6zRsXHUoEZwxHtTUpPuyLv
+2025-05-02 00:30:43 - trading.trader - INFO - Successfully sold DOGEDOGE
+2025-05-02 00:30:43 - trading.trader - INFO - YOLO mode enabled. Waiting 15 seconds before looking for next token...
+2025-05-02 00:30:43 - monitoring.logs_listener - INFO - New token detected: TRUMP WIF BIG HAT (TWBG)
+2025-05-02 00:30:43 - trading.trader - INFO - Queued new token: TWBG (Fy9a3enSh3WCqv4PRVKaoj4QevD2DG55YPwkaAKJpump)
+2025-05-02 00:30:46 - monitoring.logs_listener - INFO - New token detected: Gork's Ex (PEPPA)
+2025-05-02 00:30:46 - trading.trader - INFO - Queued new token: PEPPA (CVADFbdajZFyAhou418WAYrkNY8LDKKQMcP2sQt5pump)
+2025-05-02 00:30:47 - monitoring.logs_listener - INFO - New token detected: investment core (investcore)
+2025-05-02 00:30:47 - trading.trader - INFO - Queued new token: investcore (Dxc9SMmQroa18SgBgtQwGzrxtDYjyRiD9wt7zhHapump)
+2025-05-02 00:30:47 - monitoring.logs_listener - INFO - New token detected: Pump Core (PC)
+2025-05-02 00:30:47 - trading.trader - INFO - Queued new token: PC (BjkR8xh47PdjQLSYziqWUToP6nQjwfqAESxbgPJQpump)
+2025-05-02 00:30:48 - monitoring.logs_listener - INFO - New token detected: ELONS KET DEALER (EKD)
+2025-05-02 00:30:48 - trading.trader - INFO - Queued new token: EKD (DPzRk6DhcHg1Ry3Ts5ToZcYKKKfEQGhCZvUgjwFCpump)
+2025-05-02 00:30:48 - monitoring.logs_listener - INFO - New token detected: Prisma Terminal (PRISMA)
+2025-05-02 00:30:48 - trading.trader - INFO - Queued new token: PRISMA (Hc4w9JDahnHLErjy5ccS6PDwgf3WEVMPG3od8yapump)
+2025-05-02 00:30:49 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-02 00:30:51 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-02 00:30:51 - monitoring.logs_listener - INFO - New token detected: New SkinCare Routine (Sperm)
+2025-05-02 00:30:51 - trading.trader - INFO - Queued new token: Sperm (7odL2ncBFPqbgUshsMyE4EsDqpe6ybTLPJgQE36Dpump)
+2025-05-02 00:30:51 - monitoring.logs_listener - INFO - New token detected: Justice for J6 (J6)
+2025-05-02 00:30:51 - trading.trader - INFO - Queued new token: J6 (HBYC5ty7Xg4nMbNLXk8meu7asBsNqGvaAZRe9J2VpKp3)
+2025-05-02 00:30:52 - monitoring.logs_listener - INFO - New token detected: Mars Volcano (Olympus)
+2025-05-02 00:30:52 - trading.trader - INFO - Queued new token: Olympus (ETRhgPB2QaWab3irnbzvAvpYdsJcXd3mFPxeELsqpump)
+2025-05-02 00:30:52 - monitoring.logs_listener - INFO - New token detected: TRUMP MEDDALIAN DIGITAL COIN (TMC)
+2025-05-02 00:30:52 - trading.trader - INFO - Queued new token: TMC (B8yAfUiFMMDwmJ7YcPrwCwMwDasVvGrh2SoCYg31pump)
+2025-05-02 00:30:56 - monitoring.logs_listener - INFO - New token detected: NEW VISA AI (IC)
+2025-05-02 00:30:56 - trading.trader - INFO - Queued new token: IC (EJBoHp9HEcbfjD8MRQdiM7LkP7HwbrQGPzwFDQsYpump)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token DNR - too old (62.3s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token $(LHC) - too old (61.1s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token CHILLNIGGA - too old (61.1s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token DR - too old (61.1s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token CGC - too old (60.1s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token DNR - too old (56.9s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token NKCG - too old (55.8s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token BITMONSTER - too old (55.8s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token GAMESTORE - too old (50.9s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token AC - too old (48.5s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token 123 - too old (46.2s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token PRISMA - too old (46.2s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token GORK - too old (45.5s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token HRPANGRY - too old (41.2s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token GORK - too old (38.9s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token ROTUS - too old (36.6s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token GrokGuy - too old (35.9s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token MLAD - too old (35.3s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token obihouse - too old (32.7s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token FHOC - too old (32.7s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token CGC - too old (29.3s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token GORKWIFHAT - too old (28.5s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token GORKGOD - too old (28.1s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token GWH - too old (24.2s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token zjhgfoqjkl - too old (23.0s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token MANTA - too old (22.5s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token HOG - too old (22.1s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token BITMONSTER - too old (19.1s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token ITRC - too old (18.7s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token TREEHOUSE - too old (16.3s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token KW-7 - too old (16.3s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token OPENHOUSE - too old (16.3s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token TWBG - too old (14.8s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token PEPPA - too old (12.1s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token investcore - too old (10.5s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token PC - too old (10.5s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token EKD - too old (9.6s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token PRISMA - too old (9.6s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token Sperm - too old (6.9s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token J6 - too old (6.6s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token Olympus - too old (5.7s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token TMC - too old (5.7s > 0.1s)
+2025-05-02 00:30:58 - trading.trader - INFO - Skipping token IC - too old (2.1s > 0.1s)
+2025-05-02 00:31:06 - monitoring.logs_listener - INFO - New token detected: FUGGIT (FUGGIT)
+2025-05-02 00:31:06 - trading.trader - INFO - Queued new token: FUGGIT (Fd9F17SPRSnGiXCJe89MjNajEZWNhwntMndn2XFbpump)
+2025-05-02 00:31:06 - trading.trader - INFO - Processing fresh token: FUGGIT (age: 0.0s)
+2025-05-02 00:31:06 - trading.trader - INFO - Waiting for 15 seconds for the bonding curve to stabilize...
+2025-05-02 00:31:06 - monitoring.logs_listener - INFO - New token detected: Bobly (Bobly)
+2025-05-02 00:31:06 - trading.trader - INFO - Queued new token: Bobly (FsNMopJwXiJZz8DkHXGJ6pqEqtHbL5G7R8oDvUHRpump)
+2025-05-02 00:31:09 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-02 00:31:10 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-02 00:31:10 - monitoring.logs_listener - INFO - Ping loop cancelled
+2025-05-02 00:31:10 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-02 00:31:12 - monitoring.logs_listener - INFO - New token detected: Apple Jim Cook Coin (APPLECOIN)
+2025-05-02 00:31:12 - trading.trader - INFO - Queued new token: APPLECOIN (7iuibN8dCKRDFG28y2epKLVAutWrhurKk6F8dK1kpump)
+2025-05-02 00:31:14 - monitoring.logs_listener - INFO - New token detected: Sphere (SPH)
+2025-05-02 00:31:14 - trading.trader - INFO - Queued new token: SPH (CrGYQKCxz7wRvoTA1KJJ3mHQ64PHdNrCbPYqh8o6pump)
+2025-05-02 00:31:17 - monitoring.logs_listener - INFO - New token detected: Booprilla (BOOPRILL)
+2025-05-02 00:31:17 - trading.trader - INFO - Queued new token: BOOPRILL (5EAgEUfiZBMRYS62BpdQ21fRvCBTetLxbexUEXqgaMvE)
+2025-05-02 00:31:22 - monitoring.logs_listener - INFO - New token detected: GORK TROLL (GORK TROLL)
+2025-05-02 00:31:22 - trading.trader - INFO - Queued new token: GORK TROLL (Bwqvf1w2YxscRF9KptBedWYYn2FqFpRk3NYcGqAfpump)
+2025-05-02 00:31:22 - monitoring.logs_listener - INFO - New token detected: Just A Chill Grok (ChillGrok)
+2025-05-02 00:31:22 - trading.trader - INFO - Queued new token: ChillGrok (7sDNgtb3zWMEjNW4nYXETuBmtCY3iGq8aZraUF19pump)
+2025-05-02 00:31:22 - monitoring.logs_listener - INFO - New token detected: TrollerCatt (TCAT)
+2025-05-02 00:31:22 - trading.trader - INFO - Queued new token: TCAT (FMdbeA4XgWHJ7qMHxCkXtQHE39CDvcnbi9byZevMpump)
+2025-05-02 00:31:23 - monitoring.logs_listener - INFO - New token detected: DEPORT (DEPORT)
+2025-05-02 00:31:23 - trading.trader - INFO - Queued new token: DEPORT (EqjB36W1nCBXsMWVA9hpyyJstjJhKQnDsgUYy3cjpump)
+2025-05-02 00:31:25 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-02 00:31:25 - monitoring.logs_listener - INFO - New token detected: Buying a House with this Coin (OPENHOUSE)
+2025-05-02 00:31:25 - trading.trader - INFO - Queued new token: OPENHOUSE (3oTHCFeLKMEqMiehoisXwGdQ3LUh5zKihqsYGthmpump)
+2025-05-02 00:31:27 - monitoring.logs_listener - INFO - New token detected: Terminal of Lies (LIES)
+2025-05-02 00:31:27 - trading.trader - INFO - Queued new token: LIES (4Q5huvkYAmTe712M1Nps59E2t46Tj1Va2obmyLt8pump)
+2025-05-02 00:31:27 - monitoring.logs_listener - INFO - New token detected: chill dr. housecoin (chillhouse)
+2025-05-02 00:31:27 - trading.trader - INFO - Queued new token: chillhouse (E8badXKh1f5H3ZUFpzLVR27PFsEYGeY7M62WPv8Xpump)
+2025-05-02 00:31:28 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-02 00:31:28 - monitoring.logs_listener - INFO - New token detected: sola (sola)
+2025-05-02 00:31:28 - trading.trader - INFO - Queued new token: sola (FvtMBcwpcaYKV1BLhNMLvide4gXfT7npYKA21dJGpump)
+2025-05-02 00:31:29 - monitoring.logs_listener - INFO - New token detected: NEW VISA AI (IC)
+2025-05-02 00:31:29 - trading.trader - INFO - Queued new token: IC (64hdnkL73tbrb1nwhLdbWYKdtJ7jseuv2RRpmwKqpump)
+2025-05-02 00:31:36 - monitoring.logs_listener - ERROR - Error processing WebSocket message: Event loop is closed
+2025-05-02 00:31:36 - monitoring.logs_listener - ERROR - WebSocket connection error: Event loop is closed
+2025-05-02 00:31:36 - monitoring.logs_listener - INFO - Reconnecting in 5 seconds...
+2025-05-02 00:31:36 - trading.trader - ERROR - Token listening stopped due to error: no running event loop
+2025-05-02 00:31:36 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-02 00:31:36 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-02 00:31:36 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-02 00:31:36 - trading.trader - ERROR - Error during cleanup: no running event loop
+2025-05-02 00:31:36 - root - ERROR - Bot stopped due to error: unknown async library, or not in async context
+2025-05-02 00:31:36 - trading.trader - INFO - Cleaning up 1 traded token(s)...
+2025-05-02 00:31:36 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-02 00:31:36 - cleanup.manager - INFO - Waiting for 5 seconds for RPC node to synchronize...
+2025-05-02 00:31:36 - trading.trader - ERROR - Error during cleanup: no running event loop
+2025-05-02 00:31:36 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<start_bot() done, defined at C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py:33> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>

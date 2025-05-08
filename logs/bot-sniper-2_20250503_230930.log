@@ -1,0 +1,76 @@
+2025-05-03 23:09:30 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-03 23:09:30 - trading.trader - INFO - Starting pump.fun trader
+2025-05-03 23:09:30 - trading.trader - INFO - Match filter: None
+2025-05-03 23:09:30 - trading.trader - INFO - Creator filter: None
+2025-05-03 23:09:30 - trading.trader - INFO - Marry mode: False
+2025-05-03 23:09:30 - trading.trader - INFO - YOLO mode: True
+2025-05-03 23:09:30 - trading.trader - INFO - Max token age: 1.0 seconds
+2025-05-03 23:09:30 - trading.trader - INFO - Take profit enabled: True
+2025-05-03 23:09:30 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-03 23:09:30 - trading.trader - INFO - Take profit percentage: 50.0%
+2025-05-03 23:09:30 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-03 23:09:30 - trading.trader - INFO - Max monitor time: 300 seconds
+2025-05-03 23:09:31 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-03 23:09:31 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-03 23:09:31 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:31 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14608
+2025-05-03 23:09:32 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:33 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:33 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:33 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:33 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14609
+2025-05-03 23:09:34 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:35 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:35 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:35 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:35 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14610
+2025-05-03 23:09:36 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:36 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:36 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:37 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:37 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14611
+2025-05-03 23:09:38 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:38 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:38 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:39 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:39 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14612
+2025-05-03 23:09:40 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:40 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:40 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:40 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:40 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14613
+2025-05-03 23:09:41 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:42 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:42 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:42 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:42 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14614
+2025-05-03 23:09:43 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:43 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:43 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:44 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:44 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14615
+2025-05-03 23:09:45 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:45 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:45 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:46 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:46 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14616
+2025-05-03 23:09:47 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:47 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:47 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:48 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:48 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14617
+2025-05-03 23:09:49 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:49 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:49 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:49 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:49 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14618
+2025-05-03 23:09:50 - monitoring.logs_listener - WARNING - Ping loop timeout, forcing shutdown
+2025-05-03 23:09:51 - monitoring.logs_listener - WARNING - WebSocket connection closed
+2025-05-03 23:09:51 - monitoring.logs_listener - WARNING - WebSocket connection closed. Reconnecting...
+2025-05-03 23:09:51 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 23:09:51 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 14619
+2025-05-03 23:09:52 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-03 23:09:52 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-03 23:09:52 - trading.trader - INFO - No traded tokens to clean up
+2025-05-03 23:09:57 - trading.trader - INFO - Pump trader has shut down
+2025-05-03 23:10:12 - root - ERROR - Failed to run bot bot-sniper-2: Event loop stopped before Future completed.

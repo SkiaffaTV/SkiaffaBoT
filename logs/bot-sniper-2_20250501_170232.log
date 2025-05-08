@@ -1,0 +1,348 @@
+2025-05-01 17:02:32 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-01 17:02:32 - trading.trader - INFO - Starting pump.fun trader
+2025-05-01 17:02:32 - trading.trader - INFO - Match filter: None
+2025-05-01 17:02:32 - trading.trader - INFO - Creator filter: None
+2025-05-01 17:02:32 - trading.trader - INFO - Marry mode: False
+2025-05-01 17:02:32 - trading.trader - INFO - YOLO mode: True
+2025-05-01 17:02:32 - trading.trader - INFO - Max token age: 10 seconds
+2025-05-01 17:02:32 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-01 17:02:32 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-01 17:02:32 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:32 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-01 17:02:33 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 1266411
+2025-05-01 17:02:35 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 17:02:37 - monitoring.logs_listener - INFO - New token detected: Let's Crypto Hustle (Hustle)
+2025-05-01 17:02:37 - trading.trader - INFO - Queued new token: Hustle (3nxwhgGvz4NCovTHnxk95BcVN6PpRcC6BiUWpth5pump)
+2025-05-01 17:02:37 - trading.trader - INFO - Processing fresh token: Hustle (age: 0.0s)
+2025-05-01 17:02:37 - trading.trader - INFO - Buying 0.000100 SOL worth of Hustle...
+2025-05-01 17:02:37 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:02:37 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 17:02:37 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:37 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 17:02:37 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 17:02:37 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:37 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:38 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:39 - monitoring.logs_listener - INFO - New token detected: 1 Organ = 1 Solana (OrganCoin)
+2025-05-01 17:02:39 - trading.trader - INFO - Queued new token: OrganCoin (9jDaS4teR6L2m22euURLfnME9QwYzvbCJZM3yRZ2pump)
+2025-05-01 17:02:39 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:39 - trading.buyer - INFO - Buy transaction confirmed: 2KDvQE2rPPTVQoC9zKDHqCGyxwz4tiFS9WVVmMmjfRgcZBNLRjMixPAWgPjk3SYxkxVom9ey1J6RuuwGk2QxwXfv
+2025-05-01 17:02:39 - trading.trader - INFO - Successfully bought Hustle
+2025-05-01 17:02:39 - trading.trader - INFO - Waiting for 10 seconds before selling...
+2025-05-01 17:02:41 - monitoring.logs_listener - INFO - New token detected: ACT B : The Boop Prophecy (ACT B)
+2025-05-01 17:02:41 - trading.trader - INFO - Queued new token: ACT B (Az5CDgyBupWQ7EPNuwCzLCZmt2ZgBkRUzTzKKuy2pump)
+2025-05-01 17:02:41 - monitoring.logs_listener - INFO - New token detected: IT'S THE FIRST OF THE MONTH (1ST)
+2025-05-01 17:02:41 - trading.trader - INFO - Queued new token: 1ST (4BdnYnNpgCiARhANkZXU9GHcj5RxTdfKjb2SHRUjpump)
+2025-05-01 17:02:41 - monitoring.logs_listener - INFO - New token detected: Goes (Goes)
+2025-05-01 17:02:41 - trading.trader - INFO - Queued new token: Goes (C5VJaWAP4CSEiQR14y2PhtBdBJ4HbXpcdktNAfcCpump)
+2025-05-01 17:02:42 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:48 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:48 - monitoring.logs_listener - INFO - New token detected: CryptoClaws (CC)
+2025-05-01 17:02:48 - trading.trader - INFO - Queued new token: CC (5g46JXxQjiPdb7vVmJ7tRU2Yt4hQdm4cjCQkz9h2pump)
+2025-05-01 17:02:49 - trading.trader - INFO - Selling Hustle...
+2025-05-01 17:02:49 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:49 - trading.seller - ERROR - Sell operation failed: Account Gwpx3WgxcjnGk6waek3j5VKa6441G8ciCmRcQ79CGsoM not found
+2025-05-01 17:02:49 - trading.trader - ERROR - Failed to sell Hustle: Account Gwpx3WgxcjnGk6waek3j5VKa6441G8ciCmRcQ79CGsoM not found
+2025-05-01 17:02:49 - trading.trader - INFO - YOLO mode enabled. Waiting 10 seconds before looking for next token...
+2025-05-01 17:02:53 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:55 - monitoring.logs_listener - INFO - New token detected: Minisol (Minisol)
+2025-05-01 17:02:55 - trading.trader - INFO - Queued new token: Minisol (uJx3Kg388Ph8aDM3ydvsMKaMf5Rua58Ck8ujpRwpump)
+2025-05-01 17:02:55 - monitoring.logs_listener - INFO - New token detected: Life Saver Pig (Margarit)
+2025-05-01 17:02:55 - trading.trader - INFO - Queued new token: Margarit (6D9f7HzLq7FF9uU9UpVkoGiMeHQo7NDUVErxndWUpump)
+2025-05-01 17:02:56 - trading.trader - INFO - Queued new token: Oktotariff (8DyY6EiF2vqDNouxJGQhJhEaC3vSVFuLLkv1JLFBpump)
+2025-05-01 17:02:58 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:02:59 - trading.trader - INFO - Skipping token OrganCoin - too old (20.2s > 10s)
+2025-05-01 17:02:59 - trading.trader - INFO - Skipping token ACT B - too old (18.6s > 10s)
+2025-05-01 17:02:59 - trading.trader - INFO - Skipping token 1ST - too old (17.9s > 10s)
+2025-05-01 17:02:59 - trading.trader - INFO - Skipping token Goes - too old (17.9s > 10s)
+2025-05-01 17:02:59 - trading.trader - INFO - Skipping token CC - too old (11.8s > 10s)
+2025-05-01 17:02:59 - trading.trader - INFO - Processing fresh token: Minisol (age: 4.3s)
+2025-05-01 17:02:59 - trading.trader - INFO - Buying 0.000100 SOL worth of Minisol...
+2025-05-01 17:02:59 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:02:59 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 17:03:00 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:00 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 17:03:00 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 17:03:00 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:01 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:02 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:02 - trading.buyer - INFO - Buy transaction confirmed: 56pawLyd3zZCrBBPcwaqJXwUwWUqMY5dM7M9uwp2XbkYeJ1FT2YeYfPh8TtBVFazd1FuVn4RQRvdJGSh9niT2cR3
+2025-05-01 17:03:02 - trading.trader - INFO - Successfully bought Minisol
+2025-05-01 17:03:02 - trading.trader - INFO - Waiting for 10 seconds before selling...
+2025-05-01 17:03:03 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:05 - monitoring.logs_listener - INFO - New token detected: This Teenage Mutant Nigga Turtle (TMNT)
+2025-05-01 17:03:05 - trading.trader - INFO - Queued new token: TMNT (44s1SVfbHfJJUmWgZ2ES9w1oFx4wDceN7DtyWSsspump)
+2025-05-01 17:03:07 - monitoring.logs_listener - INFO - New token detected: Super Grok (SuperGrok)
+2025-05-01 17:03:07 - trading.trader - INFO - Queued new token: SuperGrok (zfg7FQGS5PEXMAYpwmLJ47mU9ZFXf6kwrrGbFeSpump)
+2025-05-01 17:03:07 - monitoring.logs_listener - INFO - New token detected: World Password Day  (WPD)
+2025-05-01 17:03:07 - trading.trader - INFO - Queued new token: WPD (BNUux8L8g2n48z8u4LB9jzMe7McUGvUzeETweSRSpump)
+2025-05-01 17:03:08 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:12 - trading.trader - INFO - Selling Minisol...
+2025-05-01 17:03:12 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:12 - trading.seller - ERROR - Sell operation failed: Account 2dnHgewywch9ktWrZHfhSpBAbHH8ZSx8kjbsLvWBqfX5 not found
+2025-05-01 17:03:12 - trading.trader - ERROR - Failed to sell Minisol: Account 2dnHgewywch9ktWrZHfhSpBAbHH8ZSx8kjbsLvWBqfX5 not found
+2025-05-01 17:03:12 - trading.trader - INFO - YOLO mode enabled. Waiting 10 seconds before looking for next token...
+2025-05-01 17:03:12 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 17:03:13 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:15 - monitoring.logs_listener - INFO - New token detected: BoopAnt (Anttttt)
+2025-05-01 17:03:15 - trading.trader - INFO - Queued new token: Anttttt (22aDyG8GNioyhsj4GdommgS5jaxZmjgCtiniKArNpump)
+2025-05-01 17:03:18 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:19 - monitoring.logs_listener - INFO - New token detected: BITCHFACE (BITCHFACE)
+2025-05-01 17:03:19 - trading.trader - INFO - Queued new token: BITCHFACE (26csAFJnpzymLNg2koF2VLMzc9Wdz3b5XbEkPbSmpump)
+2025-05-01 17:03:21 - monitoring.logs_listener - INFO - New token detected: Andrianavalona (Navalona)
+2025-05-01 17:03:21 - trading.trader - INFO - Queued new token: Navalona (EXys9xtRRwGFFAiVkYb4PsLhdq9WbDgZLVmp8wRcpump)
+2025-05-01 17:03:22 - trading.trader - INFO - Skipping token Margarit - too old (26.9s > 10s)
+2025-05-01 17:03:22 - trading.trader - INFO - Skipping token Oktotariff - too old (25.7s > 10s)
+2025-05-01 17:03:22 - trading.trader - INFO - Skipping token TMNT - too old (16.8s > 10s)
+2025-05-01 17:03:22 - trading.trader - INFO - Skipping token SuperGrok - too old (14.6s > 10s)
+2025-05-01 17:03:22 - trading.trader - INFO - Skipping token WPD - too old (14.6s > 10s)
+2025-05-01 17:03:22 - trading.trader - INFO - Processing fresh token: Anttttt (age: 6.8s)
+2025-05-01 17:03:22 - trading.trader - INFO - Buying 0.000100 SOL worth of Anttttt...
+2025-05-01 17:03:22 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:03:22 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 17:03:22 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:22 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 17:03:22 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 17:03:22 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:23 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:23 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:24 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:24 - trading.buyer - INFO - Buy transaction confirmed: zvRsKrcEYp3CJ4cdSQMPbsMmiSsaqYnLk7Gf1ZZPkEd7zsHwq1Ep155rV11dGBJcUvWNSYfQLjbQqidnfX3r3Yp
+2025-05-01 17:03:24 - trading.trader - INFO - Successfully bought Anttttt
+2025-05-01 17:03:24 - trading.trader - INFO - Waiting for 10 seconds before selling...
+2025-05-01 17:03:25 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 17:03:28 - monitoring.logs_listener - INFO - New token detected: Boopification (BOOPIFY)
+2025-05-01 17:03:28 - trading.trader - INFO - Queued new token: BOOPIFY (FcPbeUTuLoWb1wuGf4omGtrKrFVxBsus7eZRZtf6pump)
+2025-05-01 17:03:29 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:32 - monitoring.logs_listener - INFO - New token detected: CloseAI (CLOSEAI)
+2025-05-01 17:03:32 - trading.trader - INFO - Queued new token: CLOSEAI (4uzvRz83MLP7PuAuNC1hSjCgah59219a2wczw6YBpump)
+2025-05-01 17:03:34 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:34 - trading.trader - INFO - Selling Anttttt...
+2025-05-01 17:03:35 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:35 - trading.seller - ERROR - Sell operation failed: Account 5ft3eCoa4eD1xYjhvu2fS1irfCb7wDWSVuB8kJtNKJJE not found
+2025-05-01 17:03:35 - trading.trader - ERROR - Failed to sell Anttttt: Account 5ft3eCoa4eD1xYjhvu2fS1irfCb7wDWSVuB8kJtNKJJE not found
+2025-05-01 17:03:35 - trading.trader - INFO - YOLO mode enabled. Waiting 10 seconds before looking for next token...
+2025-05-01 17:03:39 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:42 - monitoring.logs_listener - INFO - New token detected: DerpSeek (DerpSeek)
+2025-05-01 17:03:42 - trading.trader - INFO - Queued new token: DerpSeek (hMyn2yhwrGDUJYa557cD6aqNTgbwMSXnJJSdCDkpump)
+2025-05-01 17:03:43 - monitoring.logs_listener - INFO - New token detected: ChainPaws (CPW)
+2025-05-01 17:03:43 - trading.trader - INFO - Queued new token: CPW (9Mdkd32xgF3o8rZSWJFAJiAeCwY3ofdDh9GugEhcpump)
+2025-05-01 17:03:44 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:45 - trading.trader - INFO - Skipping token BITCHFACE - too old (25.5s > 10s)
+2025-05-01 17:03:45 - trading.trader - INFO - Skipping token Navalona - too old (23.3s > 10s)
+2025-05-01 17:03:45 - trading.trader - INFO - Skipping token BOOPIFY - too old (16.4s > 10s)
+2025-05-01 17:03:45 - trading.trader - INFO - Skipping token CLOSEAI - too old (12.1s > 10s)
+2025-05-01 17:03:45 - trading.trader - INFO - Processing fresh token: DerpSeek (age: 3.0s)
+2025-05-01 17:03:45 - trading.trader - INFO - Buying 0.000100 SOL worth of DerpSeek...
+2025-05-01 17:03:45 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:03:45 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 17:03:45 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:45 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 17:03:45 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 17:03:45 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:45 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 17:03:46 - monitoring.logs_listener - INFO - New token detected: The Amazing Fat Doggo (AmazDoggo)
+2025-05-01 17:03:46 - trading.trader - INFO - Queued new token: AmazDoggo (5KPRd44aqnE8BSeRfSCnAdpv2AmZcDRoi38Z6DEqpump)
+2025-05-01 17:03:46 - monitoring.logs_listener - INFO - New token detected: Grok's Face (GROK)
+2025-05-01 17:03:46 - trading.trader - INFO - Queued new token: GROK (7gmKmKyZocfwQ3ww4P8d2fePFfXK6rUyJFRpXTxJpump)
+2025-05-01 17:03:46 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:46 - trading.buyer - INFO - Buy transaction confirmed: 25hxhs3s8j26Esp5BAmU5vGe38VRtxiBAonpm1VgBRS6GmZFpEELWcxb9CYSCarEXxYhmjQFNjLNnGC6dR16Rs9c
+2025-05-01 17:03:46 - trading.trader - INFO - Successfully bought DerpSeek
+2025-05-01 17:03:46 - trading.trader - INFO - Waiting for 10 seconds before selling...
+2025-05-01 17:03:46 - monitoring.logs_listener - INFO - New token detected: Boopification (BOOPIFY)
+2025-05-01 17:03:46 - trading.trader - INFO - Queued new token: BOOPIFY (5kHq3BU55MMqeKmU7u4MfzvssUrZY2pkMBWUhtcLpump)
+2025-05-01 17:03:49 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:49 - monitoring.logs_listener - INFO - New token detected: Goop Coin (GOOP)
+2025-05-01 17:03:49 - trading.trader - INFO - Queued new token: GOOP (8SrGXPKMpUJyc3Kj8MABDZKc67NekczwxoFqwEsrVGRx)
+2025-05-01 17:03:53 - monitoring.logs_listener - INFO - New token detected: Sentix AI (Sentix)
+2025-05-01 17:03:53 - trading.trader - INFO - Queued new token: Sentix (DFapP3cCtNTypxCYcdNuddpj98cqwVTqWcxib2fNpump)
+2025-05-01 17:03:54 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:55 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 17:03:56 - monitoring.logs_event_processor - INFO - Skipping non-Create instruction with discriminator: 17177263679997991869
+2025-05-01 17:03:56 - trading.trader - INFO - Selling DerpSeek...
+2025-05-01 17:03:56 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:03:56 - trading.seller - ERROR - Sell operation failed: Account BDYSTjaqB7yqPti9YGiGphtR7qvdgCH1VKJibBRHSXQs not found
+2025-05-01 17:03:56 - trading.trader - ERROR - Failed to sell DerpSeek: Account BDYSTjaqB7yqPti9YGiGphtR7qvdgCH1VKJibBRHSXQs not found
+2025-05-01 17:03:56 - trading.trader - INFO - YOLO mode enabled. Waiting 10 seconds before looking for next token...
+2025-05-01 17:03:59 - monitoring.logs_listener - INFO - New token detected: panicans hardest hit (PHH)
+2025-05-01 17:03:59 - trading.trader - INFO - Queued new token: PHH (8WFSY5LdzRGLfsJXFcwqNZT98aqWkpurWTraAbhFj83g)
+2025-05-01 17:03:59 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:03 - monitoring.logs_listener - INFO - New token detected: SINNERS (SIN)
+2025-05-01 17:04:03 - trading.trader - INFO - Queued new token: SIN (EwCBgFzcacNWQvj4MkFDV3QD48PfqQ1VcyghNZpwpump)
+2025-05-01 17:04:04 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:06 - trading.trader - INFO - Skipping token CPW - too old (23.7s > 10s)
+2025-05-01 17:04:06 - trading.trader - INFO - Skipping token AmazDoggo - too old (20.5s > 10s)
+2025-05-01 17:04:06 - trading.trader - INFO - Skipping token GROK - too old (20.5s > 10s)
+2025-05-01 17:04:06 - trading.trader - INFO - Skipping token BOOPIFY - too old (20.0s > 10s)
+2025-05-01 17:04:06 - trading.trader - INFO - Skipping token GOOP - too old (17.1s > 10s)
+2025-05-01 17:04:06 - trading.trader - INFO - Skipping token Sentix - too old (13.7s > 10s)
+2025-05-01 17:04:06 - trading.trader - INFO - Processing fresh token: PHH (age: 7.3s)
+2025-05-01 17:04:06 - trading.trader - INFO - Buying 0.000100 SOL worth of PHH...
+2025-05-01 17:04:06 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:04:06 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 17:04:07 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:07 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 17:04:07 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 17:04:07 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:08 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:08 - trading.buyer - INFO - Buy transaction confirmed: 4ofL7zcyZuPZB1GBKUAVfdHA6m38fgzDj8UKZjtsHjMp4a1Kzi1viRnEwB6ziC9hmZvCgYJpD3zzw4D1bkyDKqTD
+2025-05-01 17:04:08 - trading.trader - INFO - Successfully bought PHH
+2025-05-01 17:04:08 - trading.trader - INFO - Waiting for 10 seconds before selling...
+2025-05-01 17:04:08 - monitoring.logs_listener - INFO - New token detected: Boop VS PumpFun (BVP)
+2025-05-01 17:04:08 - trading.trader - INFO - Queued new token: BVP (GHRLdStHmrWSeAJKp279dSQSBsggaGKzNbV323Mdpump)
+2025-05-01 17:04:09 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:11 - monitoring.logs_listener - INFO - New token detected: My Life As Boop (MLAB)
+2025-05-01 17:04:11 - trading.trader - INFO - Queued new token: MLAB (HMdwG5Y7fRuiq1cVVvzyKRJyZ5Y53JUvxeHk631npump)
+2025-05-01 17:04:13 - monitoring.logs_listener - INFO - New token detected: Crypto KittyVerse (CKV)
+2025-05-01 17:04:13 - trading.trader - INFO - Queued new token: CKV (4vQ5zVwsk6Cs6ZFEKkMAdaSYGqjSpnj4k1exchjtpump)
+2025-05-01 17:04:15 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:18 - trading.trader - INFO - Selling PHH...
+2025-05-01 17:04:18 - monitoring.logs_listener - INFO - New token detected: LiverX (LIVERX)
+2025-05-01 17:04:18 - trading.trader - INFO - Queued new token: LIVERX (FMhKTySvuz2X5SyfmgzVBghduH3xacubLpcpv4mgpump)
+2025-05-01 17:04:18 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:18 - trading.seller - ERROR - Sell operation failed: Account Ckp8TqD8wV4D5aweFyKx9CNwQMYQuAAimkVY63TV56xZ not found
+2025-05-01 17:04:18 - trading.trader - ERROR - Failed to sell PHH: Account Ckp8TqD8wV4D5aweFyKx9CNwQMYQuAAimkVY63TV56xZ not found
+2025-05-01 17:04:18 - trading.trader - INFO - YOLO mode enabled. Waiting 10 seconds before looking for next token...
+2025-05-01 17:04:20 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:21 - monitoring.logs_listener - INFO - New token detected: Truth Terminal New Boop Agent (Glitch)
+2025-05-01 17:04:21 - trading.trader - INFO - Queued new token: Glitch (6nWdxSgAHUjwGkjL8PJhuoVkYNUyLQUjHqgrCkaSpump)
+2025-05-01 17:04:24 - monitoring.logs_listener - INFO - New token detected: this is pointless (TIP)
+2025-05-01 17:04:24 - trading.trader - INFO - Queued new token: TIP (7RYJ2UoTcdCCc4J4jyxM6yVkmpqWfWJGeTZAoGLbpump)
+2025-05-01 17:04:24 - monitoring.logs_listener - INFO - New token detected: this is pointless (TIP)
+2025-05-01 17:04:24 - trading.trader - INFO - Queued new token: TIP (4fFbxGy8BmxKdNPYU92awzxcbXTXRXATtb9wVHqQChB8)
+2025-05-01 17:04:25 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:26 - monitoring.logs_listener - INFO - New token detected: GePeTe (GEPETE)
+2025-05-01 17:04:26 - trading.trader - INFO - Queued new token: GEPETE (HyAMQMt63vkaWf1WgXFGjDaA2oZB6A4gQpRhceoLpump)
+2025-05-01 17:04:27 - monitoring.logs_listener - INFO - New token detected: i am become meme (iabm)
+2025-05-01 17:04:27 - trading.trader - INFO - Queued new token: iabm (HAAx6YQVttYeQiTWmYvibyv6DEuw6Vmte3D8pkq9y9FA)
+2025-05-01 17:04:28 - trading.trader - INFO - Skipping token SIN - too old (24.6s > 10s)
+2025-05-01 17:04:28 - trading.trader - INFO - Skipping token BVP - too old (19.5s > 10s)
+2025-05-01 17:04:28 - trading.trader - INFO - Skipping token MLAB - too old (16.5s > 10s)
+2025-05-01 17:04:28 - trading.trader - INFO - Skipping token CKV - too old (15.0s > 10s)
+2025-05-01 17:04:28 - trading.trader - INFO - Skipping token LIVERX - too old (10.1s > 10s)
+2025-05-01 17:04:28 - trading.trader - INFO - Processing fresh token: Glitch (age: 7.0s)
+2025-05-01 17:04:28 - trading.trader - INFO - Buying 0.000100 SOL worth of Glitch...
+2025-05-01 17:04:28 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:04:28 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 17:04:28 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:28 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 17:04:28 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 17:04:28 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:29 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:29 - trading.buyer - INFO - Buy transaction confirmed: dgpYGex71ZH277VWWqTQPDx5SgaDazaAkX5CpicnxGjwa4iuSQqVrxnMmvNYuQYzgAJCg3N4g6CrXjAKQurXEAn
+2025-05-01 17:04:29 - trading.trader - INFO - Successfully bought Glitch
+2025-05-01 17:04:29 - trading.trader - INFO - Waiting for 10 seconds before selling...
+2025-05-01 17:04:30 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:32 - monitoring.logs_listener - INFO - New token detected: DAO Capital Markets (DCM)
+2025-05-01 17:04:32 - trading.trader - INFO - Queued new token: DCM (GmjfqJVdG2G3JyAMtT2xkqqjcJfUb48Ek5YC2S2nPv6b)
+2025-05-01 17:04:35 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:35 - monitoring.logs_listener - INFO - New token detected: areas (areas)
+2025-05-01 17:04:35 - trading.trader - INFO - Queued new token: areas (7rpXHuDg41sC87nALxG8xqfJ1hi7WsZ3foq5G6PApump)
+2025-05-01 17:04:38 - monitoring.logs_listener - INFO - New token detected: DAO capital markets (DCM)
+2025-05-01 17:04:38 - trading.trader - INFO - Queued new token: DCM (6vxzBM6dXJVHeonbXgB4BX7QS6usPhToPf8zGS6G3gos)
+2025-05-01 17:04:39 - trading.trader - INFO - Selling Glitch...
+2025-05-01 17:04:39 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:39 - trading.seller - ERROR - Sell operation failed: Account 5E1AQMeiEQeGmK39a5USrpu7jrdZydTaA49wZJUmmgWj not found
+2025-05-01 17:04:39 - trading.trader - ERROR - Failed to sell Glitch: Account 5E1AQMeiEQeGmK39a5USrpu7jrdZydTaA49wZJUmmgWj not found
+2025-05-01 17:04:39 - trading.trader - INFO - YOLO mode enabled. Waiting 10 seconds before looking for next token...
+2025-05-01 17:04:40 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:40 - monitoring.logs_listener - INFO - New token detected: Mingo (MINGO)
+2025-05-01 17:04:40 - trading.trader - INFO - Queued new token: MINGO (z8TD4nFBSJezUZBpkHk1g8ZpbR576zzraMWaHcYpump)
+2025-05-01 17:04:45 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:49 - trading.trader - INFO - Skipping token TIP - too old (25.5s > 10s)
+2025-05-01 17:04:49 - trading.trader - INFO - Skipping token TIP - too old (25.1s > 10s)
+2025-05-01 17:04:49 - trading.trader - INFO - Skipping token GEPETE - too old (23.0s > 10s)
+2025-05-01 17:04:49 - trading.trader - INFO - Skipping token iabm - too old (21.9s > 10s)
+2025-05-01 17:04:49 - trading.trader - INFO - Skipping token DCM - too old (17.6s > 10s)
+2025-05-01 17:04:49 - trading.trader - INFO - Skipping token areas - too old (14.0s > 10s)
+2025-05-01 17:04:49 - trading.trader - INFO - Skipping token DCM - too old (11.6s > 10s)
+2025-05-01 17:04:49 - trading.trader - INFO - Processing fresh token: MINGO (age: 8.8s)
+2025-05-01 17:04:49 - trading.trader - INFO - Buying 0.000100 SOL worth of MINGO...
+2025-05-01 17:04:49 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:04:49 - core.client - INFO - Priority fee in microlamports: 500000
+2025-05-01 17:04:50 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:50 - trading.buyer - INFO - Buying 20.000000 tokens at 0.00000500 SOL per token
+2025-05-01 17:04:50 - trading.buyer - INFO - Total cost: 0.000100 SOL (max: 0.000130 SOL)
+2025-05-01 17:04:50 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:50 - monitoring.logs_listener - INFO - New token detected: gork secret community (gork420)
+2025-05-01 17:04:50 - trading.trader - INFO - Queued new token: gork420 (5FrjZFSv3s9YzFKGERDB5VDoN6ikj1dsA7SNndALpump)
+2025-05-01 17:04:50 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:51 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:04:51 - trading.buyer - INFO - Buy transaction confirmed: 3Gv1ZYnxgEGJzjc8khcgyjozLhW3mVB1dwubQnzfzrCApVgbkwShbWjv4hggmj8mUfdphbE72ZnCyoTcvFfisDvx
+2025-05-01 17:04:51 - trading.trader - INFO - Successfully bought MINGO
+2025-05-01 17:04:51 - trading.trader - INFO - Waiting for 10 seconds before selling...
+2025-05-01 17:04:55 - monitoring.logs_listener - INFO - New token detected: GLOOB (GLOOB)
+2025-05-01 17:04:55 - trading.trader - INFO - Queued new token: GLOOB (FqScwCqfNE71hLKRQg4oNaJ6tKXhnBZWAR3PCcU6pump)
+2025-05-01 17:04:55 - root - INFO - Received interrupt signal. Initiating graceful shutdown...
+2025-05-01 17:04:55 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-01 17:04:55 - trading.trader - INFO - Cleaning up 7 traded token(s)...
+2025-05-01 17:04:55 - cleanup.modes - INFO - [Cleanup] Triggered post trading session.
+2025-05-01 17:04:55 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:04:55 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 17:05:11 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:05:11 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:05:11 - cleanup.manager - INFO - Skipping ATA 2dnHgewywch9ktWrZHfhSpBAbHH8ZSx8kjbsLvWBqfX5 with non-zero balance (20000000 tokens) because CLEANUP_FORCE_CLOSE_WITH_BURN is disabled.
+2025-05-01 17:05:11 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:05:11 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 17:05:26 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:05:26 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:05:26 - cleanup.manager - INFO - Skipping ATA 5ft3eCoa4eD1xYjhvu2fS1irfCb7wDWSVuB8kJtNKJJE with non-zero balance (20000000 tokens) because CLEANUP_FORCE_CLOSE_WITH_BURN is disabled.
+2025-05-01 17:05:26 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:05:26 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 17:05:41 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:05:41 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:05:41 - cleanup.manager - INFO - Skipping ATA Ckp8TqD8wV4D5aweFyKx9CNwQMYQuAAimkVY63TV56xZ with non-zero balance (20000000 tokens) because CLEANUP_FORCE_CLOSE_WITH_BURN is disabled.
+2025-05-01 17:05:41 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:05:41 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 17:05:56 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:05:56 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:05:56 - cleanup.manager - INFO - Skipping ATA 6PTqdaZ5kLvxRFr7rrxBJcEQJowtjkr8kADPgofWBnmS with non-zero balance (20000000 tokens) because CLEANUP_FORCE_CLOSE_WITH_BURN is disabled.
+2025-05-01 17:05:56 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:05:56 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 17:06:12 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:06:12 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:06:12 - cleanup.manager - INFO - Skipping ATA Gwpx3WgxcjnGk6waek3j5VKa6441G8ciCmRcQ79CGsoM with non-zero balance (20000000 tokens) because CLEANUP_FORCE_CLOSE_WITH_BURN is disabled.
+2025-05-01 17:06:12 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:06:12 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 17:06:27 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:06:27 - cleanup.manager - INFO - ATA BDYSTjaqB7yqPti9YGiGphtR7qvdgCH1VKJibBRHSXQs does not exist or already closed.
+2025-05-01 17:06:27 - core.priority_fee.manager - WARNING - Calculated priority fee 550000 exceeds hard cap 500000. Applying hard cap.
+2025-05-01 17:06:27 - cleanup.manager - INFO - Waiting for 15 seconds for RPC node to synchronize...
+2025-05-01 17:06:42 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:06:42 - httpx - INFO - HTTP Request: POST https://solana-mainnet.core.chainstack.com/9fdb4bc2c8ed8fec26c25e56660481bb "HTTP/1.1 200 OK"
+2025-05-01 17:06:42 - cleanup.manager - INFO - Skipping ATA 5E1AQMeiEQeGmK39a5USrpu7jrdZydTaA49wZJUmmgWj with non-zero balance (20000000 tokens) because CLEANUP_FORCE_CLOSE_WITH_BURN is disabled.
+2025-05-01 17:06:42 - trading.trader - INFO - Pump trader has shut down
+2025-05-01 17:06:42 - root - ERROR - Failed to start bot from bots\bot-sniper-2-logs.yaml: This event loop is already running
+Traceback (most recent call last):
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 123, in run_all_bots
+    asyncio.run(start_bot(str(file)))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 2002, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 446, in select
+    self._poll(timeout)
+    ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 775, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 149, in signal_handler
+    loop.run_until_complete(loop.shutdown_asyncgens())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+2025-05-01 17:06:42 - root - INFO - Started 1 bots, skipped 1 disabled bots

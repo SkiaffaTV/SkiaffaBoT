@@ -1,0 +1,41 @@
+2025-05-03 02:04:51 - trading.trader - INFO - Using logsSubscribe listener for token monitoring
+2025-05-03 02:04:51 - trading.trader - INFO - Starting pump.fun trader
+2025-05-03 02:04:51 - trading.trader - INFO - Match filter: None
+2025-05-03 02:04:51 - trading.trader - INFO - Creator filter: None
+2025-05-03 02:04:51 - trading.trader - INFO - Marry mode: False
+2025-05-03 02:04:51 - trading.trader - INFO - YOLO mode: True
+2025-05-03 02:04:51 - trading.trader - INFO - Max token age: 1.0 seconds
+2025-05-03 02:04:51 - trading.trader - INFO - Take profit enabled: True
+2025-05-03 02:04:51 - trading.trader - INFO - Fixed time sell enabled: True
+2025-05-03 02:04:51 - trading.trader - INFO - Take profit percentage: 50.0%
+2025-05-03 02:04:51 - trading.trader - INFO - Stop loss percentage: 15.0%
+2025-05-03 02:04:51 - trading.trader - INFO - Max monitor time: 300 seconds
+2025-05-03 02:04:51 - trading.trader - INFO - RPC warm-up successful (getHealth passed: ok)
+2025-05-03 02:04:51 - trading.trader - INFO - Running in continuous mode - will process tokens until interrupted
+2025-05-03 02:04:52 - monitoring.logs_listener - INFO - Subscribed to logs mentioning program: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
+2025-05-03 02:04:52 - monitoring.logs_listener - INFO - Subscription confirmed with ID: 13672
+2025-05-03 02:05:04 - monitoring.logs_listener - INFO - WebSocket listener cancelled
+2025-05-03 02:05:04 - trading.trader - INFO - Token queue processor was cancelled
+2025-05-03 02:05:04 - trading.trader - INFO - No traded tokens to clean up
+2025-05-03 02:05:04 - trading.trader - INFO - Pump trader has shut down
+2025-05-03 02:05:04 - monitoring.logs_listener - INFO - Ping loop cancelled
+2025-05-03 02:05:19 - root - WARNING - Error closing loop: This event loop is already running
+2025-05-03 02:05:19 - root - ERROR - Failed to start bot from bots\bot-sniper-2-logs.yaml: Event loop stopped before Future completed.
+Traceback (most recent call last):
+  File "C:\Users\SkiaffaTV\Progetti\pump-fun-bot\src\bot_runner.py", line 190, in run_all_bots
+    asyncio.run(start_bot(str(file)))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 194, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 62, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 72, in close
+    loop.run_until_complete(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        loop.shutdown_default_executor(constants.THREAD_JOIN_TIMEOUT))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SkiaffaTV\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 723, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
